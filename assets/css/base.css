@@ -1,0 +1,83 @@
+.main-nav {
+    background: #4703a6;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.color-purple-dark {
+    color: #4703a6;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-purple-dark {
+    background: #4703a6;
+    color: white;
+}
+
+.bg-purple-light {
+    background: #b599f2;
+}
+
+.bg-gray-light {
+    background: #eeeeee;
+}
+.bg-gray-dark {
+    background: #404040;
+}
+.bg-black {
+    background: #262626;
+}
+.bg-white-50 {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    color: #4703a6;
+}
+h3 {
+    color: #4703a6;
+}
+h4 {
+    color: #4703a6;
+}
+hr {
+    color: #4703a6;
+}
+
+ul.before-arrow li::before {
+    content: "\f105";
+    font-family: 'Font Awesome 6 Free';
+    color: #4703a6;
+    margin-right: 1rem;
+}
+
+ul.before-arrow li {
+    margin-top: 0.7rem;
+}
+
+.introduction {
+    margin-top: 6.50rem;
+    background-image: url("./../../assets/img/towers.png");
+    height: calc(100vh - 6.50rem);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features {
+    background-image: url("./../../assets/img/towers-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section, .section {
+    position:relative;
+    z-index: 1;
+}
+
+#icons-link a {
+    font-size: 3em;
+    color: #4703a6;
+}
