@@ -1,7 +1,7 @@
 .main-nav {
     background: #4703a6;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .color-purple-dark {
@@ -50,7 +50,7 @@ hr {
 ul.before-arrow li::before {
     content: "\f105";
     font-family: 'Font Awesome 6 Free';
-    color: #4703a6;
+    color: white;
     margin-right: 1rem;
 }
 
@@ -60,24 +60,50 @@ ul.before-arrow li {
 
 .introduction {
     margin-top: 6.50rem;
-    background-image: url("./../../assets/img/towers.png");
     height: calc(100vh - 6.50rem);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image: url("./../../assets/img/towers.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-position: center top;*/
+    /*background-attachment: fixed;*/
 }
 
-.features {
-    background-image: url("./../../assets/img/towers-2.jpeg");
+body::after {
+    content: "";
+    background-image: url("./../../assets/img/towers.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position: bottom left;
+    background-attachment: fixed;
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 section, .section {
     position:relative;
     z-index: 1;
+    margin-bottom: 2rem;
 }
 
 #icons-link a {
     font-size: 3em;
-    color: #4703a6;
+    color: white;
+}
+
+footer {
+    background: #4703a6;
+    color: white;
+}
+
+footer h4,hr,a{
+    color: white;
+}
+.boxed {
+    border: #4703a6 1px solid;
+    border-radius: 1rem;
 }
