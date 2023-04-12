@@ -18,7 +18,7 @@
 }
 
 .color-white {
-    color: white;
+    color: white !important;
 }
 
 .color-black {
@@ -166,9 +166,7 @@ footer h4,hr,a{
 #ready {
     background: #4703a6;
     border-radius: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 5rem;
+    padding: 3rem;
 }
 
 #ready h1 {
