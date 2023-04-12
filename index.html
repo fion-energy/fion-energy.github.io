@@ -15,147 +15,174 @@
   </head>
   <body>
     <header>
-      <nav class="main-nav navbar navbar-expand-lg hover-navbar fixed-top">
-        <div class="container">
-          <a class="navbar-brand color-white fw-bold" href="#">
-            <img src="assets/img/logo.png" style="max-height: 2rem;"/>
-          </a>
-
+      <nav class="main-nav navbar navbar-expand-lg hover-navbar fixed-top shadow">
+        <div class="container d-flex justify-content-between">
+          <div>
+            <a class="navbar-brand color-white fw-bold" href="#">
+              <img src="assets/img/logo.png" style="max-height: 4rem;"/>
+            </a>
+          </div>
+          <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-link">
+                    DE
+                  </a>
+                  <span class="color-white">/</span>
+                  <a class="btn btn-link">
+                    EN
+                  </a>
+                  <span class="color-white">/</span>
+                  <a class="btn btn-link">
+                    ES
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-light" style="color: #4703a6 !important;">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
     <main id="content" role="main">
       <div class="section introduction">
         <div class="container p-4 h-100 d-flex align-items-center">
-          <div class="p-2 text-center">
-            <h1 class="fw-bold">
-              Revolutionize Grid Management for a Sustainable Energy Future
-            </h1>
-            <hr>
-            <h4>
-              Introducing our cutting-edge software solution to help Distribution System Operators (DSOs) navigate the energy transition
-            </h4>
+          <div class="row d-flex">
+            <div class="col-lg-7 col-md-12 align-self-center">
+              <h1 class="mb-4">MAKE YOUR DISTRIBUTION <br />GRID <span class="color-purple-dark">10X SMARTER</span></h1>
+              <p style="width: 65%;" class="mt-5" >Get complete real-time visibility into your grid, connected energy consumer, suppliers, and occurring grid congestions. Get the insights you need to manage your grid more efficiently and be prepared for the changing grid requirements.</p>
+            </div>
+            <div class="col-lg-5 d-none d-lg-block" style="margin-left: -7rem">
+              <img src="assets/img/header.png" style="width: 40rem;">
+            </div>
           </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section" id="use-cases">
+        <div class="container p-4">
+          <div class="row mb-4">
+            <div class="col">
+              <h1>USE CASES</h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-evenly my-4">
+            <div class="col-lg-6 col-md-12 order-lg-2 align-self-center text-center">
+                <img src="assets/img/smart-meter.png">
+            </div>
+            <div class="col-lg-6 col-md-12 order-lg-1 align-self-center">
+                <h2 class="mb-4">
+                  <span class="color-purple-dark">ANOMALY</span> DETECTION
+                </h2>
+                <p class="my-4">
+                  With advanced ML algorithms, FION identifies unusual patterns in energy consumption and alerts in case of potential issues such as faulty equipment, tampering, or fraud. FIONs user-friendly platform is easy to integrate with existing systems and can help prevent costly errors, improve efficiency, and increase customer satisfaction.
+                </p>
+                <button class="btn bg-purple-dark">More Info</button>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-evenly mb-5">
+            <div class="col-lg-6 col-md-12 order-lg-1 align-self-center  text-center">
+              <img src="assets/img/internet-of-things.png">
+            </div>
+            <div class="col-lg-6 col-md-12 order-lg-2 align-self-center">
+              <h2 class="mb-4">
+                <span class="color-purple-dark">REAL-TIME</span> LOAD STATUS
+              </h2>
+              <p class="my-4">
+                FIONs AI leverages smart meter data and GIS data to calculate accurate grid loads in real-time, wherever you want, without installation of additional IoT devices.
+                With FION, you can start leveraging load flexibilization and prevent bottlenecks and damages in your low-voltage grid.
+              </p>
+              <button class="btn bg-purple-dark">More Info</button>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-evenly mt-5">
+            <div class="col-lg-6 col-md-12 order-lg-2 align-self-center text-center">
+              <img src="assets/img/energy.png">
+            </div>
+            <div class="col-lg-6 col-md-12 order-lg-1 align-self-center">
+              <h2 class="mb-4">
+                <span class="color-purple-dark">SMART </span> GRID EXPANSION
+              </h2>
+              <p class="my-4">
+                FION offers a powerful solution for modern DSOs looking to strategically expand their grid infrastructure. Using cutting-edge analytics and AI, FION can identify the areas with the highest need for infrastructure reinforcement and help DSOs make informed decisions about where to invest their resources.
+              </p>
+              <button class="btn bg-purple-dark">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="smart-grid">
         <div class="container p-4">
           <div class="row">
-            <div class="col-lg-4 col-md-12">
-              <h1>Mission</h1>
+            <div class="col">
+              <h1 class="mb-5">
+                SMART GRID 2.0, <span class="color-purple-dark">FOR DSOs</span>
+              </h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-between">
+            <div class="col-lg-3 col-md-12 text-center">
+              <img class="mb-5" src="assets/img/save-money.png">
+              <h2 class="mb-5">
+                <span class="color-purple-dark">DECREASED</span><br />COSTS
+              </h2>
               <p>
-                Our mission is to revolutionize the way DSOs manage their grids by harnessing the power of real-time data, machine learning algorithms, and digital innovation. We aim to create a more resilient, sustainable, and reliable energy ecosystem for future generations.
+                Decrease investments in measuring infrastructure and save costs expanding your grid by smarter, real-time data based decision making.
               </p>
             </div>
-            <div class="col-lg-4  col-md-12">
-              <h1>The Challenge</h1>
+            <div class="col-lg-3 col-md-12 text-center">
+              <img class="mb-5" src="assets/img/productivity.png">
+              <h2 class="mb-5">
+                <span class="color-purple-dark">PRODUCTIVITY</span><br />INCREASE
+              </h2>
               <p>
-                The energy landscape is rapidly evolving due to the decentralization of energy supply and the electrification of mobility and heating sectors. DSOs face unprecedented challenges managing the growing number of grid connection requests and ensuring the stability and reliability of the grid. Conventional grid management methods, based on manual processes and non-digitized data, are no longer sufficient to keep up with the pace of change.
+                Accelerate manual processes like grid compatibility tests and free up capacity of your workforce, especially important in times of worker shortage.
               </p>
             </div>
-            <div class="col-lg-4 col-md-12">
-              <h1>Our Solution</h1>
+            <div class="col-lg-3 col-md-12 text-center">
+              <img class="mb-5" src="assets/img/secure-data.png">
+              <h2 class="mb-5">
+                <span class="color-purple-dark">BETTER GRID</span><br />SECURITY
+              </h2>
               <p>
-                Our innovative software solution empowers DSOs to efficiently manage their grids by collecting, processing, and analyzing real-time data from low and mid-voltage grids. Leveraging advanced machine learning algorithms, our solution provides valuable insights for optimizing grid management, automating compatibility calculations, and ensuring regulatory compliance.
+                Make your grid security bulletproof detecting and flagging anomalies related to hacker or fraudulent activity immediately.
               </p>
             </div>
+
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container p-4">
-          <div class="row mb-4">
-            <div class="col text-center">
-              <h1>Use Cases</h1>
+      <div class="section" style="margin-bottom: 10rem; margin-top: 10rem">
+        <div class="container" id="ready">
+          <div class="row">
+            <div class="col">
+              <h1>READY TO DIGITISE YOUR GRID?</h1>
             </div>
           </div>
-          <div class="row d-flex justify-content-evenly">
-            <div class="boxed col-lg-3 col-md-12 p-4 mb-4 text-center">
-              <i class="fa-solid fa-clock fa-4x color-purple-dark mb-3"></i>
-              <h3>Accelerate Grid Connection Approvals</h3>
-              <p >
-                Our software streamlines the grid connection approval process, reducing wait times and ensuring a faster integration of new energy assets into the grid.
-              </p>
+          <div class="row">
+            <div class="col-2">
+              <button class="btn btn-light">Contact Us</button>
             </div>
-            <div class="boxed col-lg-3 col-md-12 p-4 mb-4 text-center">
-              <i class="fa-solid fa-plug-circle-bolt fa-4x color-purple-dark mb-3"></i>
-              <h3>Optimize Load Balancing and Demand Response</h3>
-              <p>
-                Our solution analyzes real-time data to provide insights for efficient load balancing and demand response, enhancing grid stability and resource allocation.
-              </p>
-            </div>
-            <div class="boxed col-lg-3 col-md-12 p-4 mb-4 text-center">
-              <i class="fa-solid fa-house-chimney-crack fa-4x color-purple-dark mb-3"></i>
-              <h3>Prevent Infrastructure Damage and Blackouts</h3>
-              <p>
-                By predicting grid behavior and load peaks, our software enables proactive measures to prevent infrastructure damage and potential blackouts, ensuring grid reliability.
-              </p>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-evenly">
-            <div class="boxed col-lg-3 col-md-12 p-4 mb-4 text-center">
-              <i class="fa-regular fa-solar-panel fa-4x color-purple-dark mb-3"></i>
-              <h3>Facilitate Renewable Energy Integration</h3>
-              <p>
-                Our software supports the seamless integration of renewable energy sources into the grid, fostering a more sustainable energy ecosystem and accelerating the energy transition.
-              </p>
-            </div>
-            <div class="boxed col-lg-3 col-md-12 p-4 mb-4 text-center">
-              <i class="fa-solid fa-file-shield fa-4x color-purple-dark mb-3"></i>
-              <h3>Ensure Regulatory Compliance</h3>
-              <p>
-                Designed to meet relevant regulations, our solution mitigates the risk of penalties and promotes trust among stakeholders, allowing DSOs to operate within the required legal framework.
-              </p>
+            <div class="col-2">
+              <button class="btn bg-purple-dark" style="border: white 1px solid">Join waitlist</button>
             </div>
           </div>
         </div>
-      </div>
-      <div class="section">
-        <div class="container p-4">
-          <div class="row mb-4">
-            <div class="col text-center">
-              <h1>Why use Fion-Energy?</h1>
-            </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col">
-              <p>
-                Our software solution stands out in the market by employing a federated learning approach, leveraging the vast amount of data generated by smart meters while remaining GDPR compliant. This ensures consumer privacy protection while providing valuable insights for optimizing grid management.
-              </p>
-            </div>
-          </div>
-          <hr />
-          <div class="row mb-5">
-            <div class="col text-center">
-              <h1>Case Study</h1>
-            </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col">
-              <p>
-                Discover how our software solution helped a leading European DSO improve grid connection approval times by 70% while simultaneously optimizing their grid management strategies, resulting in a 30% reduction in infrastructure costs.
-              </p>
-            </div>
-          </div>
-          <hr class="mb-5"/>
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-8 col-md-12 h-100 text-center"  style="border-right: #4703a6 4px solid">
-              <h4>
-                Ready to revolutionize your grid management and accelerate the energy transition?
-              </h4>
-              <p>
-                Request a demo today and experience the power of our innovative software solution firsthand!
-              </p>
-            </div>
-            <div class="col-lg-4 col-md-12 h-100 text-center">
-              <a class="btn bg-purple-dark align-self-center">
-                Request a Demo!
-              </a>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </main>
     <footer>
@@ -165,15 +192,18 @@
             <h4>About Us</h4>
             <hr />
             <div>
-              <p>Helping DSOs build a more resilient, sustainable, and reliable energy ecosystem for a better tomorrow.</p>
-<!--              Fion-Energy is a team of experts committed to revolutionizing grid management for DSOs with innovative software solutions, leveraging real-time data and machine learning to create a sustainable, reliable energy ecosystem for the future.-->
+              <p>
+                Helping DSOs build a more resilient, sustainable, and reliable electric grid for a greener tomorrow.
+              </p>
             </div>
             <div class="d-flex align-items-center mt-3">
               <div class="me-4">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div>
+                <p>
                 Zugang über den Hof der KPM<br /> Wegelystraße 1<br /> 10623 Berlin
+                </p>
               </div>
             </div>
             <div class="d-flex align-items-center mt-3">
@@ -203,36 +233,26 @@
                     Privacy policy
                   </li>
                   <li>
-                    Term of use
-                  </li>
-                  <li>
-                    GDPR
-                  </li>
-                  <li>
-                    Career
+                    Imprint
                   </li>
                 </ul>
               </div>
               <div class="col-sm-6">
                 <ul class="list-unstyled before-arrow">
-                  <li>Latest post</li>
-                  <li>Popular post</li>
-                  <li>Blogs</li>
-                  <li>Events</li>
-                  <li>Fax</li>
-                  <li>Category</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-lg-4  col-md-6">
-            <h4>Newsletter</h4>
+            <h4>Waiting list</h4>
             <hr />
             <div>
-              <p>Subscribe to our mailing list to receives daily updates direct to your inbox!</p>
+              <p>
+                Join our waiting list and receive updates regarding our product development
+              </p>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter you email address">
-                <span class="input-group-text bg-purple-dark " id="newslater">Subscribe</span>
+                <input type="text" class="form-control" placeholder="Enter your email address here">
+                <span class="input-group-text bg-purple-dark " id="newslater">Join</span>
               </div>
             </div>
             <div id="icons-link" class="d-flex flex-row justify-content-between">
