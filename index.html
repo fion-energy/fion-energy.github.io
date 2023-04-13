@@ -27,7 +27,7 @@
       <nav class="main-nav navbar navbar-expand-lg hover-navbar fixed-top shadow">
         <div class="container d-flex justify-content-between">
           <div>
-            <a class="navbar-brand color-white fw-bold" href="#">
+            <a class="navbar-brand color-white fw-bold" href="https://www.fion-energy.com">
               <img src="assets/img/logo.png" style="max-height: 4rem;"/>
             </a>
           </div>
@@ -38,29 +38,29 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="https://www.fion-energy.com">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#footer">About Us</a>
                 </li>
+<!--                <li class="nav-item">-->
+<!--                  <a class="nav-link" href="#">Solutions</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                  <a class="btn btn-link">-->
+<!--                    DE-->
+<!--                  </a>-->
+<!--                  <span class="color-white">/</span>-->
+<!--                  <a class="btn btn-link">-->
+<!--                    EN-->
+<!--                  </a>-->
+<!--                  <span class="color-white">/</span>-->
+<!--                  <a class="btn btn-link">-->
+<!--                    ES-->
+<!--                  </a>-->
+<!--                </li>-->
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Solutions</a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn btn-link">
-                    DE
-                  </a>
-                  <span class="color-white">/</span>
-                  <a class="btn btn-link">
-                    EN
-                  </a>
-                  <span class="color-white">/</span>
-                  <a class="btn btn-link">
-                    ES
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn btn-light" style="color: #4703a6 !important;">Contact Us</a>
+                  <a href="https://www.fion-energy.com/contact.html" class="btn btn-light" style="color: #4703a6 !important;">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -100,7 +100,7 @@
                 <p class="my-4">
                   With advanced ML algorithms, FION identifies unusual patterns in energy consumption and alerts in case of potential issues such as faulty equipment, tampering, or fraud. FIONs user-friendly platform is easy to integrate with existing systems and can help prevent costly errors, improve efficiency, and increase customer satisfaction.
                 </p>
-                <button class="btn bg-purple-dark">More Info</button>
+                <a class="btn bg-purple-dark" href="https://www.fion-energy.com/contact.html">More Info</a>
             </div>
           </div>
           <div class="row d-flex justify-content-evenly mb-5">
@@ -115,7 +115,7 @@
                 FIONs AI leverages smart meter data and GIS data to calculate accurate grid loads in real-time, wherever you want, without installation of additional IoT devices.
                 With FION, you can start leveraging load flexibilization and prevent bottlenecks and damages in your low-voltage grid.
               </p>
-              <button class="btn bg-purple-dark">More Info</button>
+              <a class="btn bg-purple-dark" href="https://www.fion-energy.com/contact.html">More Info</a>
             </div>
           </div>
 
@@ -130,7 +130,7 @@
               <p class="my-4">
                 FION offers a powerful solution for modern DSOs looking to strategically expand their grid infrastructure. Using cutting-edge analytics and AI, FION can identify the areas with the highest need for infrastructure reinforcement and help DSOs make informed decisions about where to invest their resources.
               </p>
-              <button class="btn bg-purple-dark">More Info</button>
+              <a class="btn bg-purple-dark" href="https://www.fion-energy.com/contact.html">More Info</a>
             </div>
           </div>
         </div>
@@ -185,8 +185,7 @@
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col">
-              <button class="btn btn-light">Contact Us</button>
-              <button class="btn bg-purple-dark" style="border: white 1px solid">Join waitlist</button>
+              <a class="btn btn-light w-25" href="https://www.fion-energy.com/contact.html">Contact Us</a>
             </div>
           </div>
         </div>
@@ -231,16 +230,9 @@
               <div class="col-sm-6">
                 <ul class="list-unstyled before-arrow">
                   <li>
-                    About us
-                  </li>
-                  <li>
-                    Contact us
-                  </li>
-                  <li>
-                    Privacy policy
-                  </li>
-                  <li>
-                    Imprint
+                    <a href="https://www.fion-energy.com/contact.html">
+                      Contact us
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -257,10 +249,13 @@
               <p>
                 Join our waiting list and receive updates regarding our product development
               </p>
+              <form method="POST" action="https://formspree.io/f/mnqyooje">
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter your email address here">
-                <span class="input-group-text bg-purple-dark " id="newslater">Join</span>
+                <input type="hidden" name="waiting-list" value="Waitinglint">
+                <input type="email" name="email" class="form-control" placeholder="Enter your email address here">
+                <button type="submit" class="input-group-text bg-purple-dark " id="newslater">Join</button>
               </div>
+              </form>
             </div>
             <div id="icons-link" class="d-flex flex-row justify-content-between">
               <div>
