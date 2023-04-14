@@ -1,0 +1,141 @@
+{
+  "locale": {
+    "en": "English",
+    "es": "Spanish",
+    "de": "German"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "solutions": "Solutions"
+  },
+  "button": {
+    "contact" : "Contact Us",
+    "join": "Join Waitlist",
+    "info": "More Info",
+    "send": "Send"
+  },
+  "home": {
+    "introduction": {
+      "title": {
+        "black": "MAKE YOUR DISTRIBUTION GRID ",
+        "purple": "10X SMARTER"
+      },
+      "content": "Get complete real-time visibility into your grid, connected energy consumer, suppliers, and occurring grid congestions. Get the insights you need to manage your grid more efficiently and be prepared for the changing grid requirements."
+    },
+    "use_cases": {
+      "title": {
+        "black": "USE",
+        "purple": "CASES"
+      },
+      "case": [
+        {
+          "title": {
+            "purple": "ANOMALY",
+            "black": "DETECTION"
+          },
+          "content": "With advanced ML algorithms, FION identifies unusual patterns in energy consumption and alerts in case of potential issues such as faulty equipment, tampering, or fraud. FIONs user-friendly platform is easy to integrate with existing systems and can help prevent costly errors, improve efficiency, and increase customer satisfaction.",
+          "image": "/img/smart-meter.png"
+        },
+        {
+          "title": {
+            "purple": "REAL-TIME",
+            "black": "LOAD STATUS"
+          },
+          "content": "FIONs AI leverages smart meter data and GIS data to calculate accurate grid loads in real-time, wherever you want, without installation of additional IoT devices. With FION, you can start leveraging load flexibilization and prevent bottlenecks and damages in your low-voltage grid.",
+          "image": "/img/internet-of-things.png"
+        },
+        {
+          "title": {
+            "purple": "SMART",
+            "black": "GRID EXPANSION"
+          },
+          "content": "FION offers a powerful solution for modern DSOs looking to strategically expand their grid infrastructure. Using cutting-edge analytics and AI, FION can identify the areas with the highest need for infrastructure reinforcement and help DSOs make informed decisions about where to invest their resources.",
+          "image": "/img/energy.png"
+        }
+      ]
+    },
+    "benefits": {
+      "title": {
+        "black": "SMART GRID 2.0,",
+        "purple": "FOR DSOs"
+      },
+      "benefit": [
+        {
+          "icon": "/img/save-money.png",
+          "title": {
+            "purple": "DECREASED",
+            "black": "COSTS"
+
+          },
+          "content": "Decrease investments in measuring infrastructure and save costs expanding your grid by smarter, real-time data based decision making."
+        },
+        {
+          "icon": "/img/productivity.png",
+          "title": {
+            "purple": "PRODUCTIVITY",
+            "black": "INCREASE"
+          },
+          "content": "Accelerate manual processes like grid compatibility tests and free up capacity of your workforce, especially important in times of worker shortage."
+        },
+        {
+          "icon": "/img/secure-data.png",
+          "title": {
+            "purple": "BETTER GRID",
+            "black": "SECURITY"
+          },
+          "content": "Make your grid security bulletproof detecting and flagging anomalies related to hacker or fraudulent activity immediately."
+        }
+      ]
+    },
+    "call2action": {
+      "title": "READY TO DIGITISE YOUR GRID?"
+    }
+  },
+  "contact": {
+    "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
+    "title": {
+      "black": "WE'D LOVE TO",
+      "purple": "HEAR FROM YOU."
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "phone": "Phone (optional)",
+      "message": "Your message"
+    }
+  },
+  "footer": {
+    "about_us": {
+      "title": "About Us",
+      "content": "Helping DSOs build a more resilient, sustainable, and reliable electric grid for a greener tomorrow."
+    },
+    "links": {
+      "title": "Popular Links",
+      "links": [
+        {
+          "title": "About us",
+          "href": ""
+        },
+        {
+          "title": "Contact us",
+          "href": ""
+        },
+        {
+          "title": "Privacy policy",
+          "href": ""
+        },
+        {
+          "title": "Imprint",
+          "href": ""
+        }
+      ]
+    },
+    "waiting": {
+      "title" : "Waiting list",
+      "message": "Join our waiting list and receive updates regarding our product development",
+      "placeholder": "Enter your email address here",
+      "button": "Join"
+    }
+  }
+}

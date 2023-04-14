@@ -1,0 +1,141 @@
+{
+  "locale": {
+    "en": "English",
+    "es": "Spanish",
+    "de": "German"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Über uns",
+    "solutions": "Lösungen"
+  },
+  "button": {
+    "contact" : "Kontakt aufnehmen",
+    "join": "",
+    "info": "Mehr Info",
+    "send": ""
+  },
+  "home": {
+    "introduction": {
+      "title": {
+        "black": "MACHEN SIE IHR VERTEILUNGSNETZ ",
+        "purple": "10X INTELLIGENTER"
+      },
+      "content": "Erhalten Sie vollständige Echtzeit-Einblicke in Ihr Netz, das Verhalten der angeschlossenen Energieverbraucher & Lieferanten und auftretende Netzengpässe. Erhalten Sie die Informationen, die Sie benötigen, um Ihr Netz effizienter zu steuern, und bleiben Sie auf die sich ändernden Netzanforderungen vorbereitet."
+    },
+    "use_cases": {
+      "title": {
+        "black": "ANWENDUNGSFÄLLE",
+        "purple": ""
+      },
+      "case": [
+        {
+          "title": {
+            "purple": "ANOMALIEERKENNUNG",
+            "black": ""
+          },
+          "content": "Mit KI-Algorithmen identifiziert FION ungewöhnliche Muster im Energieverbrauch und warnt bei möglichen Problemen wie defekten Messgeräte, Manipulation oder Betrug. FION lässt sich leicht in bestehende Systeme integrieren und kann dazu beitragen, kostspielige Fehler zu vermeiden, die Effizienz zu verbessern und die Kundenzufriedenheit zu steigern.",
+          "image": "/img/smart-meter.png"
+        },
+        {
+          "title": {
+            "purple": "LASTSTATUS IN ",
+            "black": "ECHTZEIT"
+          },
+          "content": "Die KI von FION nutzt intelligente Smart Meter Daten und GIS-Daten, um genaue Netzlasten in Echtzeit zu berechnen, wo immer Sie wollen, ohne Installation zusätzlicher IoT-Geräte.\nMit FION können Sie die Lastflexibilisierung nutzen und Engpässe und Schäden in Ihrem Niederspannungsnetz verhindern. ",
+          "image": "/img/internet-of-things.png"
+        },
+        {
+          "title": {
+            "purple": "INTELLIGENTER",
+            "black": "NETZAUSBAU"
+          },
+          "content": "FION bietet eine leistungsstarke Lösung für moderne VNBs, die ihre Netzinfrastruktur strategisch ausbauen möchten. Mithilfe modernster Analytik und KI kann FION die Bereiche mit dem höchsten Engpasspotential identifizieren und damit helfen, bessere Entscheidungen darüber zu treffen, wo sie ihre Ressourcen als nächstes investieren.",
+          "image": "/img/energy.png"
+        }
+      ]
+    },
+    "benefits": {
+      "title": {
+        "black": "INTELLIGENTES NETZ 2.0,",
+        "purple": "FÜR VNBs"
+      },
+      "benefit": [
+        {
+          "icon": "/img/save-money.png",
+          "title": {
+            "purple": "VERRINGERTE",
+            "black": "KOSTEN"
+
+          },
+          "content": "Reduzieren Sie Investitionen in Ihre Messinfrastruktur und sparen Sie Kosten beim Ausbau Ihres Netzes durch intelligentere, datenbasierte Entscheidungsfindung in Echtzeit."
+        },
+        {
+          "icon": "/img/productivity.png",
+          "title": {
+            "purple": "PRODUKTIVITÄTS",
+            "black": "STEIGERUNG"
+          },
+          "content": "Beschleunigen Sie manuelle Prozesse wie Netzverträglichkeitsprüfungen und schaffen Sie Kapazitäten bei Ihrer Belegschaft, gerade in Zeiten des Fachkräftemangels."
+        },
+        {
+          "icon": "/img/secure-data.png",
+          "title": {
+            "purple": "GRÖßERE",
+            "black": "NETZSICHERHEIT"
+          },
+          "content": "Machen Sie Ihre Netze sicher, indem Sie Anomalien im Zusammenhang mit Hacker- oder betrügerischen Aktivitäten sofort erkennen."
+        }
+      ]
+    },
+    "call2action": {
+      "title": "SIND SIE BEREIT, IHR NETZ ZU DIGITALISIEREN?"
+    }
+  },
+  "contact": {
+    "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
+    "title": {
+      "black": "WE'D LOVE TO",
+      "purple": "HEAR FROM YOU."
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "phone": "Phone (optional)",
+      "message": "Your message"
+    }
+  },
+  "footer": {
+    "about_us": {
+      "title": "Über uns",
+      "content": "Wir unterstützen DSOs beim Aufbau eines widerstandsfähigeren, nachhaltigeren und zuverlässigeren Stromnetzes für eine grünere Zukunft."
+    },
+    "links": {
+      "title": "Popular Links",
+      "links": [
+        {
+          "title": "Über uns",
+          "href": ""
+        },
+        {
+          "title": "Kontakt",
+          "href": ""
+        },
+        {
+          "title": "Datenschutz",
+          "href": ""
+        },
+        {
+          "title": "Impressum",
+          "href": ""
+        }
+      ]
+    },
+    "waiting": {
+      "title" : "Warteliste",
+      "message": "Tragen Sie sich in unsere Warteliste ein und erhalten Sie Updates zu unserer Produktentwicklung",
+      "placeholder": "Enter your email address here",
+      "button": "Join"
+    }
+  }
+}

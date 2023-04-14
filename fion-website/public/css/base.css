@@ -1,11 +1,11 @@
 @font-face {
     font-family: condensed-bold;
-    src: url("./../../assets/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
 }
 
 @font-face {
     font-family: condensed;
-    src: url("./../../assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
 }
 .main-nav {
     background: #4703a6;
@@ -14,7 +14,7 @@
 }
 
 .color-purple-dark {
-    color: #4703a6;
+    color: #4703a6 !important;
 }
 
 .color-white {
@@ -99,7 +99,10 @@ ul.before-arrow li {
 }
 .introduction {
     margin-top: 2.50rem;
-    height: calc(100vh - 2.50rem);
+    min-height: calc(100vh - 2.50rem);
+    /*height: calc(100vh - 2.50rem);*/
+    flex-grow: 100;
+    display:flex;
     /*background-image: url("./../../assets/img/towers.png");*/
     /*background-repeat: no-repeat;*/
     /*background-size: 100%;*/
