@@ -1,11 +1,11 @@
 @font-face {
     font-family: condensed-bold;
-    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+    src: url("fontsndensed-Bold.ttf");
 }
 
 @font-face {
     font-family: condensed;
-    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+    src: url("fontsndensed-Regular.ttf");
 }
 .main-nav {
     background: #4703a6;
