@@ -1,6 +1,6 @@
 <template>
 
-    <div class="section introduction" >
+    <div class="section introduction" style="margin-top: 7rem" >
         <div class="container" style="min-height: 100vh;" >
             <div class="row h-100">
                 <div class="col-lg-6 col-md-12 align-self-center">

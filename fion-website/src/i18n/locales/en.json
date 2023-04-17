@@ -1,8 +1,8 @@
 {
   "locale": {
     "en": "English",
-    "es": "Spanish",
-    "de": "German"
+    "es": "Español",
+    "de": "Deutsch"
   },
   "nav": {
     "home": "Home",
@@ -89,7 +89,7 @@
       ]
     },
     "call2action": {
-      "title": "READY TO DIGITISE YOUR GRID?"
+      "title": "READY TO DIGITALISE YOUR GRID?"
     }
   },
   "contact": {

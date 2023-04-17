@@ -186,3 +186,11 @@ footer h4,hr,a{
   margin-right: 4rem;
   font-size: 1.5rem;
 }
+
+.cut-word {
+  overflow-x: hidden;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}

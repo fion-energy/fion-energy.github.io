@@ -1,8 +1,8 @@
 {
   "locale": {
-    "en": "Ingles",
+    "en": "English",
     "es": "Español",
-    "de": "Aleman"
+    "de": "Deutsch"
   },
   "nav": {
     "home": "Inicio",
@@ -31,24 +31,24 @@
       "case": [
         {
           "title": {
-            "purple": "ANOMALIAS",
-            "black": "DETECCION DE "
+            "purple": "DETECCION DE ",
+            "black": "ANOMALIAS"
           },
           "content": "Con algoritmos de machine learning avanzados, FION identifica patrones inusuales en el consumo de energía y alerta en caso de posibles problemas, como equipos defectuosos, manipulación o fraude. La plataforma de FION es fácil de integrar con los sistemas existentes y ayuda a prevenir errores costosos, mejorar la eficiencia y aumentar la satisfacción del cliente.",
           "image": "/img/smart-meter.png"
         },
         {
           "title": {
-            "purple": "EN TIEMPO REAL",
-            "black": "ESTADO DE LA RED"
+            "purple": "ESTADO DE LA RED",
+            "black": "EN TIEMPO REAL"
           },
           "content": "FION utiliza los datos de contadores inteligentes y datos GIS para calcular cargas de red en tiempo real, sin la necesidad de instalar dispositivos de medición adicionales.\nCon FION, puede comenzar a  flexibilizar la red de baja tensión controlando lla carga y el suministro para evitar daños en la red.",
           "image": "/img/internet-of-things.png"
         },
         {
           "title": {
-            "purple": "DE LA RED DE DISTRIBUCION",
-            "black": "EXPANSIÓN INTELIGENTE"
+            "purple": "EXPANSIÓN INTELIGENTE",
+            "black": "DE LA RED DE DISTRIBUCION"
           },
           "content": "FION ofrece una solución poderosa para DSO modernos que buscan expandir estratégicamente la infraestructura de su red. Utilizando algoritmos de inteligencia artificial, FION identifica llos tramos con mayor necesidad de refuerzo de  la red y ayuda a los DSO a tomar decisiones estratégicas sobre dónde invertir en nueva infraestructura.",
           "image": "/img/energy.png"
@@ -93,10 +93,10 @@
     }
   },
   "contact": {
-    "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
+    "message": "ESTAMOS TRABAJANDO DURO PARA TRAER LAS TECNOLOGÍAS MAS AVANZADAS A SU RED. \nCONTÁCTENOS PARA OBTENER MÁS INFORMACIÓN, POR FAVOR.",
     "title": {
-      "black": "WE'D LOVE TO",
-      "purple": "HEAR FROM YOU."
+      "black": "ENCANTADOS DE",
+      "purple": "HABLAR CON USTED."
     },
     "form": {
       "name": "Nombre",
@@ -107,8 +107,8 @@
   },
   "footer": {
     "about_us": {
-      "title": "About Us",
-      "content": "Helping DSOs build a more resilient, sustainable, and reliable electric grid for a greener tomorrow."
+      "title": "Sobre Fion",
+      "content": "Ayudar a los DSO a construir una red eléctrica más resistente, sostenible y confiable para un mañana más verde."
     },
     "links": {
       "title": "Popular Links",

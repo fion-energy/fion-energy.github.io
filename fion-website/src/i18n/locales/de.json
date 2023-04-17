@@ -1,8 +1,8 @@
 {
   "locale": {
     "en": "English",
-    "es": "Spanish",
-    "de": "German"
+    "es": "Español",
+    "de": "Deutsch"
   },
   "nav": {
     "home": "Home",
@@ -11,9 +11,9 @@
   },
   "button": {
     "contact" : "Kontakt aufnehmen",
-    "join": "",
+    "join": "Beitreten",
     "info": "Mehr Info",
-    "send": ""
+    "send": "Senden"
   },
   "home": {
     "introduction": {
@@ -93,16 +93,16 @@
     }
   },
   "contact": {
-    "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
+    "message": "WIR ARBEITEN HART DARAN, DIE NEUESTEN KI-TECHNOLOGIEN IN IHR NETZ ZU BRINGEN. BITTE KONTAKTIEREN SIE UNS, UM WEITERE INFORMATIONEN ZU ERHALTEN.",
     "title": {
-      "black": "WE'D LOVE TO",
-      "purple": "HEAR FROM YOU."
+      "black": "WIR FREUEN UNS, ",
+      "purple": "VON IHNEN ZU HÖREN"
     },
     "form": {
       "name": "Name",
-      "email": "E-mail",
-      "phone": "Phone (optional)",
-      "message": "Your message"
+      "email": "Email",
+      "phone": "Telefon (optional)",
+      "message": " Ihre Nachricht"
     }
   },
   "footer": {
@@ -111,7 +111,7 @@
       "content": "Wir unterstützen DSOs beim Aufbau eines widerstandsfähigeren, nachhaltigeren und zuverlässigeren Stromnetzes für eine grünere Zukunft."
     },
     "links": {
-      "title": "Popular Links",
+      "title": "Links",
       "links": [
         {
           "title": "Über uns",
@@ -134,8 +134,8 @@
     "waiting": {
       "title" : "Warteliste",
       "message": "Tragen Sie sich in unsere Warteliste ein und erhalten Sie Updates zu unserer Produktentwicklung",
-      "placeholder": "Enter your email address here",
-      "button": "Join"
+      "placeholder": "Geben Sie hier Ihre E-Mail-Adresse ein",
+      "button": "Beitreten"
     }
   }
 }

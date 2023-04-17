@@ -48,10 +48,14 @@
                       </router-link>
                   </li>
                   <li>
-                      {{ $t("footer.links.links[2].title") }}
+                      <router-link :to="{ name: 'privacy-policy'}">
+                          {{ $t("footer.links.links[2].title") }}
+                      </router-link>
                   </li>
                   <li>
-                      {{ $t("footer.links.links[3].title") }}
+                      <router-link :to="{ name: 'imprint'}">
+                          {{ $t("footer.links.links[3].title") }}
+                      </router-link>
                   </li>
                 </ul>
               </div>

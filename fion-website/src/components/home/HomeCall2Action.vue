@@ -3,7 +3,7 @@
     <div class="container text-center" id="ready">
       <div class="row">
         <div class="col">
-          <h1>{{ $t("home.call2action.title") }}</h1>
+          <h1 class="cut-word">{{ $t("home.call2action.title") }}</h1>
         </div>
       </div>
       <div class="row d-flex justify-content-center">

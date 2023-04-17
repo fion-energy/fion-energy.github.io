@@ -3,7 +3,7 @@
     <div class="container p-4">
       <div class="row mb-4">
         <div class="col">
-          <h1>{{ $t("home.use_cases.title.black") }} <span class="color-purple-dark">{{ $t("home.use_cases.title.purple") }}</span> </h1>
+          <h1 class="cut-word">{{ $t("home.use_cases.title.black") }} <span class="color-purple-dark">{{ $t("home.use_cases.title.purple") }}</span> </h1>
         </div>
       </div>
       <div class="row d-flex justify-content-evenly my-4">
@@ -14,7 +14,7 @@
           <h2 class="mb-4">
             <span class="color-purple-dark">{{ $t("home.use_cases.case[0].title.purple") }}</span> {{ $t("home.use_cases.case[0].title.black") }}
           </h2>
-          <p class="my-4">
+          <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[0].content") }}
           </p>
           <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
@@ -28,7 +28,7 @@
           <h2 class="mb-4">
               <span class="color-purple-dark">{{ $t("home.use_cases.case[1].title.purple") }}</span> {{ $t("home.use_cases.case[1].title.black") }}
           </h2>
-          <p class="my-4">
+          <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[1].content") }}
           </p>
           <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
@@ -43,7 +43,7 @@
           <h2 class="mb-4">
               <span class="color-purple-dark">{{ $t("home.use_cases.case[2].title.purple") }}</span> {{ $t("home.use_cases.case[2].title.black") }}
           </h2>
-          <p class="my-4">
+          <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[2].content") }}
           </p>
           <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>

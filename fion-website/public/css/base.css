@@ -55,6 +55,14 @@ h1 {
     font-family: condensed-bold;
 }
 
+.cut-word {
+    overflow-x: hidden;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
 h2 {
     color: #262626;
     font-weight: 740;

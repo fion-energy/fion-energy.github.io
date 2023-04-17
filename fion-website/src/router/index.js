@@ -2,6 +2,8 @@ import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Tr from "@/i18n/translation"
 import ContactView from "@/views/ContactView.vue";
+import ImprintView from "@/views/ImprintView.vue";
+import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +32,16 @@ const router = createRouter({
           path: 'contact',
           name: 'contact',
           component: ContactView
+        },
+        {
+          path: 'imprint',
+          name: 'imprint',
+          component: ImprintView
+        },
+        {
+          path: 'privacy-policy',
+          name: 'privacy-policy',
+          component: PrivacyPolicyView
         },
         // {
         //   path: 'about',
