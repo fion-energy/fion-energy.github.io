@@ -12,6 +12,7 @@
                 <div class="col-lg-6 col-md-12 align-self-center">
                     <h1 class="mb-4">{{ $t("contact.title.black") }} <br /><span class="color-purple-dark">{{ $t("contact.title.purple") }}</span> </h1>
                     <form method="POST" action="https://formspree.io/f/mnqyooje">
+                        <input name="from" type="hidden" :value="$route.params.source">
                         <input name="name" class="form-control mb-3" type="text"  :placeholder="$t('contact.form.name')" />
                         <input name="email" class="form-control mb-3" type="email" :placeholder="$t('contact.form.email')" />
                         <input name="phone" class="form-control mb-3" type="text" :placeholder="$t('contact.form.phone')" />

@@ -17,7 +17,7 @@
           <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[0].content") }}
           </p>
-          <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
+          <router-link :to="{ name: 'contact', params: {source: 'use_case'}}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
         </div>
       </div>
       <div class="row d-flex justify-content-evenly mb-5">
@@ -31,7 +31,7 @@
           <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[1].content") }}
           </p>
-          <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
+          <router-link :to="{ name: 'contact', params: {source: 'real_time'}}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
         </div>
       </div>
 
@@ -46,7 +46,7 @@
           <p class="my-4 cut-word">
               {{ $t("home.use_cases.case[2].content") }}
           </p>
-          <router-link :to="{ name: 'contact'}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
+          <router-link :to="{ name: 'contact', params: {source: 'smart_grid'}}" class="btn bg-purple-dark">{{ $t("button.info") }}</router-link>
         </div>
       </div>
     </div>

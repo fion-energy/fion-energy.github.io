@@ -3,9 +3,9 @@
       <nav class="main-nav navbar navbar-expand-lg hover-navbar fixed-top shadow">
         <div class="container d-flex justify-content-between">
           <div>
-            <a class="navbar-brand color-white fw-bold" href="#">
+            <router-link :to="{ name: 'home'}" class="navbar-brand color-white fw-bold" href="#">
               <img src="/img/logo.png" style="max-height: 4rem;"/>
-            </a>
+            </router-link>
           </div>
           <div>
             <button class="navbar-toggler" style="border: white 1px solid" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                 </li>
                   <LanguageSwitcher />
                 <li class="nav-item">
-                    <router-link :to="{ name: 'contact'}" class="btn btn-light" style="color: #4703a6 !important;">{{ $t("button.contact") }}</router-link>
+                    <router-link :to="{ name: 'contact', params: {source: 'bar'}}" class="btn btn-light" style="color: #4703a6 !important;">{{ $t("button.contact") }}</router-link>
 <!--                  <a class="btn btn-light" style="color: #4703a6 !important;">{{ $t("button.contact") }}</a>-->
                 </li>
               </ul>

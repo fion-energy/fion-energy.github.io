@@ -8,7 +8,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col text-center">
-            <router-link :to="{ name: 'contact'}" class="btn btn-light" style="min-width: 25%">{{ $t("button.contact") }}</router-link>
+            <router-link :to="{ name: 'contact', params: {source: 'call'}}" class="btn btn-light" style="min-width: 25%">{{ $t("button.contact") }}</router-link>
         </div>
       </div>
     </div>

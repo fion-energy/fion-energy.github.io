@@ -43,7 +43,7 @@
                       </router-link>
                   </li>
                   <li>
-                      <router-link :to="{ name: 'contact'}">
+                      <router-link :to="{ name: 'contact', params: {source: 'footer'}}">
                           {{ $t("footer.links.links[1].title") }}
                       </router-link>
                   </li>
