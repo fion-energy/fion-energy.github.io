@@ -1,8 +1,8 @@
 {
   "locale": {
-    "en": "English",
-    "es": "Español",
-    "de": "Deutsch"
+    "de": "DE",
+    "en": "EN",
+    "es": "ES"
   },
   "nav": {
     "home": "Home",
@@ -18,10 +18,22 @@
   "home": {
     "introduction": {
       "title": {
-        "black": "MAKE YOUR DISTRIBUTION GRID ",
-        "purple": "10X SMARTER"
+        "black": "Software to increase electrical network capacity without reinforcement",
+        "purple": "FION - "
       },
-      "content": "Get complete real-time visibility into your grid, connected energy consumer, suppliers, and occurring grid congestions. Get the insights you need to manage your grid more efficiently and be prepared for the changing grid requirements."
+      "content": "With our software, we support network operators in ensuring low-voltage network security cost-effectively, especially in times of increasing network load and new regulations."
+    },
+    "challenges": {
+      "title": {
+        "black": "Challenges in low voltage networks"
+      },
+      "content": "Every day more charging stations, heat pumps and solar systems are connected in our households. The capacity of the low-voltage networks is still sufficient to transport electricity. As the energy transition progresses, bottlenecks will occur more often, which can lead to congestions and even failures."
+    },
+    "solution": {
+      "title": {
+        "black": "FIONs solution"
+      },
+      "content": "With FION, network operators can actively control the peak loads of the ever-increasing number of consumption and generation systems, prevent bottlenecks and thus increase their network capacity even without network expansion. And all of this without any noticeable restrictions for the system operator."
     },
     "use_cases": {
       "title": {
@@ -54,6 +66,22 @@
           "image": "/img/energy.png"
         }
       ]
+    },
+    "how_it_works": {
+      "title": "How it works:",
+      "items": [{
+        "title": "Identify congestion",
+        "content": "Determine the affected network section and time based on power flow calculations"
+      }, {
+        "title": "Plan regulation",
+        "content": "Select flexible consumer devices in the congestion area and determine the regulation strength"
+      },{
+        "title": "Excecute regulation",
+        "content": "Regulation command is transmitted to consumer devices via SMGW and control box signal path"
+      },{
+        "title": "Document power reduction",
+        "content": "Document the power reduction based on feedback from the consumer devices"
+      }]
     },
     "benefits": {
       "title": {
@@ -88,30 +116,61 @@
         }
       ]
     },
+    "advantages": {
+      "title": "FIONs advantages:",
+      "items": [{
+        "title": "Seamless integration",
+        "content": "FION connects to existing systems such as ERP, GIS and new systems such as SMGA, aEMT and HEMS via flexible interfaces."
+      }, {
+        "title": "Simple regulation planning",
+        "content": "FION supports regulation planning by bringing together and presenting all relevant information in one system and easy user guidance"
+      }, {
+        "title": "High level of automation",
+        "content": "FION enables complete automation of the regulation process from congestion identification to system control"
+      }, {
+        "title": "High level of data protection",
+        "content": "FION protects sensitive data through a secure software and database architecture in accordance with ISO/IEC 27001/2 standards"
+      },{
+        "title": "Regulation conformity",
+        "content": "FION covers all requirements of the Federal Network Agency, such as non-discriminatory control execution and documentation"
+      }, {
+        "title": "AI usage",
+        "content": "FION's algorithms enable reliable congestion determination even with low penetration of measuring devices in the low-voltage network"
+      }]
+    },
     "call2action": {
-      "title": "READY TO DIGITALISE YOUR GRID?"
+      "title": "Would you like to find out more?",
+      "content": "We look forward to speaking with you to discuss questions about our company and our solutions."
     }
+  },
+  "about": {
+    "title": "About us",
+    "excerpt": "We are on a mission to make network operators more successful in the energy transition",
+    "footnote": "FION offers smart software solutions for these challenges that can immediately help distribution network operators. For a more sustainable energy supply.",
+    "founder": "Philipp and Johannes, the founders of FION Energy, have found themselves as a team driven by one goal.<br/> <strong>Accelerating the energy transition to slow climate change.</strong><br/><br/>FION's mission is to use our expertise in data science and software development where it is needed most:<br/>In the low-voltage networks.",
+    "discussion": "After hundreds of hours of discussions with various companies in the energy industry, we kept coming back to problems for distribution network operators that also influence other companies while working on the energy transition.",
+    "problem": "To understand the problem further, we spoke to distribution network operators around Europe. The increasing number of decentralized energy producers and consumers will force companies to monitor and regulate low-voltage networks in real time in the future. To do this, a very large amount of data, which comes from various measuring devices in the network, existing software and external sources such as weather forecasts, must be processed almost in real time.",
+    "statement": "From congestions to long waiting times for connection requests. The distribution networks are in the center of the energy transition, operators are its pace makers.",
+    "by": "Congestion manager of german network operator"
   },
   "contact": {
     "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
-    "title": {
-      "black": "WE'D LOVE TO",
-      "purple": "HEAR FROM YOU."
-    },
+    "title": "We are looking forward to meet you.",
     "form": {
-      "name": "Name",
+      "first_name": "First Name",
+      "last_name": "Last Name",
       "email": "E-mail",
-      "phone": "Phone (optional)",
-      "message": "Your message"
-    }
+      "message": "Message"
+    },
+    "info": "<strong>Johannes Meriläinen</strong><br/>Founder FION<br/><br/>johannes&#64;fion-energy.com<br/>Wegelystraße 1<br/>10623 Berlin"
   },
   "footer": {
     "about_us": {
       "title": "About Us",
-      "content": "Helping DSOs build a more resilient, sustainable, and reliable electric grid for a greener tomorrow."
+      "content": "Helping DSO build a more resilient, sustainable, and reliable electric grid for a greener tomorrow."
     },
     "links": {
-      "title": "Popular Links",
+      "title": "Supported By",
       "links": [
         {
           "title": "About us",

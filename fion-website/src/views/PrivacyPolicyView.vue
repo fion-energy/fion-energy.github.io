@@ -1,4 +1,5 @@
 <template>
+  <PPANavbarTop/>
     <div class="section introduction" style="margin-top: 7rem" >
         <div class="container" style="min-height: 100vh;" >
             <div class="row h-100">
@@ -68,8 +69,11 @@
 </template>
 
 <script>
+import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
+
 export default {
-    name: "PrivacyPolicyView"
+    name: "PrivacyPolicyView",
+  components: {PPANavbarTop}
 }
 </script>
 

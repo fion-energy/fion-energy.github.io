@@ -8,7 +8,7 @@
     src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
 }
 .main-nav {
-    background: #4703a6;
+    background: white;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -49,10 +49,9 @@
 
 h1 {
     color: #262626;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 740;
-    text-transform: capitalize !important;
-    font-family: condensed-bold;
+    font-family: "Open Sans";
 }
 
 .cut-word {
@@ -66,20 +65,21 @@ h1 {
 h2 {
     color: #262626;
     font-weight: 740;
-    text-transform: capitalize !important;
-    font-family: condensed-bold;
+    font-family: "Open Sans";
 }
 
 h4 {
     color: white;
-    font-family: condensed;
+    font-family: "Open Sans";
 }
 
 p {
-    font-family: condensed !important;
+    font-family: "Open Sans";
 }
 a {
-    font-family: condensed !important;
+    font-family: "Open Sans";
+    text-decoration: none;
+
 }
 
 h3 {
@@ -103,11 +103,15 @@ ul.before-arrow li {
 }
 
 #navbarNavDropdown li a {
-    color: white;
+    color: #000000;
+    font-weight: 600;
+}
+#navbarNavDropdown li a.router-link-exact-active {
+    color: #652cb4;
 }
 .introduction {
-    margin-top: 2.50rem;
-    min-height: calc(100vh - 2.50rem);
+    margin-top: 10rem;
+    /*min-height: calc(100vh - 2.50rem);*/
     /*height: calc(100vh - 2.50rem);*/
     flex-grow: 100;
     display:flex;
@@ -135,7 +139,7 @@ ul.before-arrow li {
 /*}*/
 
 body {
-    background-color: #f7f7f7 !important;
+    background-color: white !important;
 }
 
 section, .section {
@@ -162,34 +166,160 @@ footer h4,hr,a{
     border-radius: 1rem;
 }
 
-#use-cases img {
-    height: 15rem;
+#how-it-works h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-#use-cases .row {
-    margin-bottom: 5rem !important;
+#how-it-works strong {
+    margin-bottom: 10px;
+    display: block;
 }
-
+#smart-grid, #how-it-works {
+    padding-top: 80px;
+}
 #smart-grid img {
-    height: 7rem;
+    height: 5rem;
+    margin-top: 50px;
 }
+#smart-grid h2 {
+    font-size: 1.2rem;
+}
+
 
 #ready {
-    background: #4703a6;
-    border-radius: 2rem;
+    background: rgb(238 238 238);
+    border-radius: 8px;
     padding: 3rem;
 }
 
-#ready h1 {
-    color: white !important;
-}
-
 .btn {
-    font-family: condensed !important;
-
+    height: 50px;
+    padding: 0 20px;
+    align-items: center;
 }
-
+.navbar-nav {
+    flex-direction: row;
+}
 .navbar-nav li {
-    margin-right: 4rem;
-    font-size: 1.5rem;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+.navbar-nav .locale.active {
+    border-bottom: 2px solid #000000;
+}
+#about-us h2 {
+    font-size: 1.3rem;
+}
+#about-us .statement {
+    background: rgb(238 238 238);
+    padding: 50px;
+    border-radius: 8px;
+}
+#about-us .statement strong {
+    display: block;
+    width: 80%;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.btn:hover {
+    background: rgba(71, 3, 166, 0.68);
+    color: #ffffff;
+}
+.form-control {
+    height: 50px;
+    border-radius: 8px;
+}
+textarea.form-control {
+    height: 100px;
+}
+.img-circle {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+}
+.banner-image {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    padding: 0;
+}
+.ppa.introduction {
+    height: 550px;
+}
+.features {
+    text-align: center;
+    height: 400px;
+}
+.features img {
+    width: 32px;
+    margin-bottom: 20px;
+}
+.functions img {
+    width: 32px;
+}
+.reviews h1 {
+    position: relative;
+}
+.reviews h1 img {
+    position: absolute;
+    width: 87px;
+    top: -29px;
+    left: -60px;
+}
+.reviews img.testimonials {
+    max-width: 904px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: -93px auto 90px auto;
+}
+@media screen and (max-width: 767px) {
+    #how-it-works {
+        text-align: center;
+    }
+    #how-it-works strong {
+        display: inline;
+    }
+    #ready .button-container {
+        justify-content: center !important;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .contact-view h1 {
+        margin-top: 7rem;
+    }
+    .img-circle {
+        margin-top: 40px;
+    }
+    .ppa.introduction {
+        text-align: center;
+    }
+    .ppa.introduction, .features {
+        height: auto;
+    }
+    .ppa.introduction .button-container {
+        justify-content: center;
+    }
+    .banner-image {
+        display: none !important;
+    }
+    .functions {
+        text-align: center;
+    }
+    .functions img {
+        margin: 20px 0;
+    }
+    .reviews h1 img {
+        width: 60px;
+        left: 0px;
+        top: -18px;
+    }
+    .reviews img.testimonials {
+        margin: 20px auto;
+    }
 }

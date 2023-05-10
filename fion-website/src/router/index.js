@@ -4,6 +4,8 @@ import Tr from "@/i18n/translation"
 import ContactView from "@/views/ContactView.vue";
 import ImprintView from "@/views/ImprintView.vue";
 import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
+import AboutUs from "@/views/AboutUs.vue";
+import PPAView from "@/views/PPAView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +29,10 @@ const router = createRouter({
           path: '',
           name: 'home',
           component: HomeView
+        },{
+          path: 'companies',
+          name: 'ppa',
+          component: PPAView
         },
         {
           path: 'contact/:source?',
@@ -43,11 +49,16 @@ const router = createRouter({
           name: 'privacy-policy',
           component: PrivacyPolicyView
         },
-        // {
-        //   path: 'about',
-        //   name: 'about',
-        //   component: () => import('../views/AboutView.vue')
-        // }
+        {
+          path: 'about',
+          name: 'about',
+          component: AboutUs
+        },
+        {
+          path: 'grid-operators',
+          name: 'grid-operators',
+          component: HomeView
+        }
       ]
     },
   ]

@@ -1,4 +1,5 @@
 <template>
+  <PPANavbarTop/>
     <div class="section introduction" >
         <div class="container" style="min-height: 100vh;" >
             <div class="row h-100">
@@ -6,7 +7,7 @@
                     <h1>Impressum</h1>
 
                     <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-                    <p>Betty Contreras, Johannes Meriläinen, Philipp Hamm<br />
+                    <p>Johannes Meriläinen, Philipp Hamm<br />
                         Fion Energy c/o Future Energy Lab<br />
                         Wegelystr. 1<br />
                         10623 Berlin</p>
@@ -25,8 +26,11 @@
 </template>
 
 <script>
+import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
+
 export default {
-    name: "imprint"
+    name: "imprint",
+  components: {PPANavbarTop}
 }
 </script>
 

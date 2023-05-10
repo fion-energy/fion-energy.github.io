@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <NavbarTop />
+<!--  <NavbarTop />-->
   <main id="content" role="main">
       <RouterView />
   </main>

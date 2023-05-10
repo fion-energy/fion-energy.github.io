@@ -10,8 +10,8 @@ export default createI18n({
     legacy: false,
     globalInjection: true,
     messages: {
-        en,
         de,
+        en,
         es
     }
 })

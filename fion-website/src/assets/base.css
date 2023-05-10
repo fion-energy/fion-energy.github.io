@@ -51,14 +51,12 @@ h1 {
   color: #262626;
   font-size: 3.5rem;
   font-weight: 740;
-  text-transform: capitalize !important;
   font-family: condensed-bold;
 }
 
 h2 {
   color: #262626;
   font-weight: 740;
-  text-transform: capitalize !important;
   font-family: condensed-bold;
 }
 
@@ -194,3 +192,4 @@ footer h4,hr,a{
   -ms-hyphens: auto;
   hyphens: auto;
 }
+

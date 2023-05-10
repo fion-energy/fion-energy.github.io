@@ -1,8 +1,8 @@
 {
   "locale": {
-    "en": "English",
-    "es": "Español",
-    "de": "Deutsch"
+    "de": "DE",
+    "en": "EN",
+    "es": "ES"
   },
   "nav": {
     "home": "Inicio",
@@ -92,6 +92,24 @@
       "title": "¿LISTO PARA DIGITALIZAR SU RED?"
     }
   },
+  "about": {
+    "title": {
+      "black": "Sobre",
+      "purple": "nosotros"
+    },
+    "message" : {
+      "first_line": "DIGITALIZANDO LAS REDES DE DISTRIBUCIÓN DEL MAÑANA",
+      "second_line": "PARA ACELERAR LA TRANSICIÓN ENERGÉTICA"
+    },
+    "paragraph": [
+      "En FION Energy tenemos una misión: ayudar a los gestores de redes de distribución a dominar la transición energética aplicando nuestra experiencia - desarrollo de software y algoritmos digitales - donde más se necesita.",
+      "Bertty, Philipp y Johannes, los fundadores de FION Energy, formaron un equipo impulsado por un objetivo: acelerar la transición energética para combatir el cambio climático.",
+      "Tras cientos de horas hablando con diferentes empresas del sector de la energía, identificamos una dificultad en común: el tiempo de reacción de los gestores de redes de distribución a la hora de procesar las solicitudes de conexión u otras peticiones de los clientes.",
+      "Así que hablamos con DSOs de toda Europa y descubrimos los enormes retos que la transición energética supone para las redes de distribución. Con la transición de un sistema energético centralizado a uno descentralizado, los requisitos de las redes de baja y media tensión han cambiado drásticamente. El creciente número de fuentes de suministro de energía renovable, pero también de puntos carga de vehículos eléctricos, obliga a los gestores de redes de distribución a empezar a supervisar y controlar las redes de baja tensión en tiempo real. Para ello, es necesario procesar en tiempo real una enorme cantidad de datos procedentes de los distintos contadores de la red pero también de diferentes programas y de datos externos como previsiones meteorológicas.",
+      "FION Energy proporciona una solución para estandarizar todos los datos en una plataforma que garantiza los más altos estándares de ciberseguridad, cumplimiento de privacidad y requisitos reglamentarios. Además, ayuda a los DSOs con automatizaciones de flujo de trabajo basadas en machine learning para eliminar tareas repetitivas y liberar tiempo para las tareas que realmente importan.",
+      "No dude en ponerse en contacto con nosotros en cualquier momento y únase a la misión de crear las redes de distribución del futuro."
+    ]
+  },
   "contact": {
     "message": "ESTAMOS TRABAJANDO DURO PARA TRAER LAS TECNOLOGÍAS MAS AVANZADAS A SU RED. \nCONTÁCTENOS PARA OBTENER MÁS INFORMACIÓN, POR FAVOR.",
     "title": {
@@ -108,10 +126,10 @@
   "footer": {
     "about_us": {
       "title": "Sobre Fion",
-      "content": "Ayudar a los DSO a construir una red eléctrica más resistente, sostenible y confiable para un mañana más verde."
+      "content": "Ayudar a los VNB a construir una red eléctrica más resistente, sostenible y confiable para un mañana más verde."
     },
     "links": {
-      "title": "Popular Links",
+      "title": "Con el apoyo de",
       "links": [
         {
           "title": "Sobre Fion",
