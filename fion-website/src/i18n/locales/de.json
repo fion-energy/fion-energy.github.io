@@ -92,6 +92,24 @@
       "title": "SIND SIE BEREIT, IHR NETZ ZU DIGITALISIEREN?"
     }
   },
+  "about": {
+    "title": {
+      "black": "Über",
+      "purple": "uns"
+    },
+    "message" : {
+      "first_line": "DIE DIGITALISIERUNG DER VERTEILNETZE",
+      "second_line": "BESCHLEUNIGT DIE ENERGIEWENDE"
+    },
+    "paragraph": [
+      "Wir bei FION Energy haben eine Mission: Verteilnetzbetreiber bei der Bewältigung der Energiewende zu unterstützen, indem wir unsere Expertise - Data Science und Softwareentwicklung - dort einsetzen, wo sie am meisten benötigt wird.",
+      "Bertty, Philipp und Johannes, die Gründer von FION Energy, haben sich als Team gefunden, das von einem Ziel angetrieben wird: die Energiewende zu beschleunigen, um den Klimawandel zu bekämpfen.",
+      "Nach hunderten von Stunden in Gesprächen mit verschiedenen Unternehmen in der Energiebranche kamen wir immer wieder auf eine ähnliche Herausforderung bei der schnellen Umsetzung der Energiewende zurück - die lange Reaktionszeit von Verteilnetzbetreiber, wenn es um die Bearbeitung von Anschlussgesuchen oder anderen Kundenanfragen geht.",
+      "Um das Problem näher zu verstehen, haben wir mit DSOs rund um Europa gesprochen und erfahren, welche enormen Herausforderungen die Energiewende für die Verteilnetze darstellt. Mit dem Übergang von einem zentralisierten zu einem dezentralisierten Energiesystem haben sich die Anforderungen an die Nieder- und Mittelspannungsnetze drastisch verändert. Die zunehmende Anzahl dezentraler Energieerzeuger, aber auch der Zuwachs von Energieverbraucher zwingen die VNBs, die Niederspannungsnetze zukünftig in Echtzeit zu überwachen und zu steuern. Dazu muss eine sehr große Menge an Daten, die von verschiedenen Zählern im Netz, bestehender Software und externen Daten wie Wettervorhersagen stammen, nahezu in Echtzeit verarbeitet werden.",
+      "FION Energy bietet eine Lösung zur Standardisierung aller Daten auf einer Plattform, die die höchsten Standards in Themen Cybersicherheit, Datenschutzrichtlinien  sowie regulatorische Anforderungen gewährleistet. Darüber hinaus unterstützt es VNBs mit Machine Learning basierten Workflow-Automatisierungen, um somit wiederholende Aufgaben zu vermeiden und mehr Zeit für die wirklich wichtigen Aufgaben freizuräumen.",
+      "Wir freuen uns auf Ihre Kontaktaufnahme, um mit uns die Verteilnetze der Zukunft aufzubauen."
+    ]
+  },
   "contact": {
     "message": "WIR ARBEITEN HART DARAN, DIE NEUESTEN KI-TECHNOLOGIEN IN IHR NETZ ZU BRINGEN. BITTE KONTAKTIEREN SIE UNS, UM WEITERE INFORMATIONEN ZU ERHALTEN.",
     "title": {

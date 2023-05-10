@@ -92,6 +92,24 @@
       "title": "READY TO DIGITALISE YOUR GRID?"
     }
   },
+  "about": {
+    "title": {
+      "black": "About",
+      "purple": "Us"
+    },
+    "message" : {
+      "first_line": "DIGITIZING THE DISTRIBUTION GRIDS OF TOMORROW",
+      "second_line": "TO ACCELERATE THE ENERGY TRANSITION"
+    },
+    "paragraph": [
+      "At FION Energy we have one mission: to support DSOs in mastering the energy transition by applying our expertise - data science and software development - where it is most needed.",
+      "Bertty, Philipp and Johannes, the founders behind FION Energy, found themselves as a team driven by one goal: to accelerate the energy transition to live in a cleaner world.",
+      "After hundreds of hours talking to different stakeholders in the energy industry we identified one common bottleneck - the reaction time of DSOs when it comes to process connection requests or other customer requests.",
+      "So we talked to DSOs all over Europe and learned about the huge challenges the energy transition means for the distribution grids. With the transition from a centralized energy system to a decentralized one, the requirements to the low and mid voltage grids have changed drastically. The increasing number of distributed energy supply sources but also energy consumption points force DSOs to start monitoring and controlling the low voltage grids in real time. In order to do that, a huge amount of data coming from different meters across the grid, existing software and external data like weather forecasting needs to be processed in near real time.",
+      "FION Energy provides a solution to standardize all the data in one platform ensuring the highest standards of cyber security, GDPR compliance and regulatory requirements. Additionally, it assists DSOs with ML-based workflow automations to eliminate repetitive tasks and free up time for what really matters.",
+      "Feel free to reach out to us at any time and join us in building the distribution grids of the future."
+    ]
+  },
   "contact": {
     "message": "WE ARE WORKING HARD TO BRING THE NEWEST AI TECHNOLOGIES TO YOUR GRID. PLEASE CONTACT US TO GET MORE INFORMATION.",
     "title": {

@@ -38,7 +38,7 @@
               <div class="col-sm-12">
                 <ul class="list-unstyled before-arrow">
                   <li>
-                      <router-link :to="{ hash: '#footer' }">
+                      <router-link :to="{ name: 'about' }">
                           {{ $t("footer.links.links[0].title") }}
                       </router-link>
                   </li>

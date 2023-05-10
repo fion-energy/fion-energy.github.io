@@ -17,7 +17,7 @@
                     <router-link :to="{ name: 'home'}" class="nav-link active" aria-current="page">{{ $t("nav.home") }}</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link :to="{ hash: '#footer' }" class="nav-link" >{{ $t("nav.about") }}</router-link>
+                    <router-link :to="{ name: 'about' }" class="nav-link" >{{ $t("nav.about") }}</router-link>
                 </li>
                 <li class="nav-item">
                     <router-link :to="{ name: 'home', hash: '#use-cases' }" class="nav-link" >{{ $t("nav.solutions") }}</router-link>
