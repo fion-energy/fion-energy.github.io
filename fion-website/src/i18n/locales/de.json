@@ -145,10 +145,10 @@
   },
   "about": {
     "title": "Über uns",
-    "excerpt": "Wir sind auf einer Mission Netzbetreiber in der Energiewende erfolgreicher zu machen",
-    "footnote": "FION Energy bietet für diese Herausforderungen smarte Softwarelösungen, die Verteilnetzbetreiber unmittelbar weiterhelfen können. Für eine nachhaltigere Energieversorgung.",
-    "founder": "Philipp und Johannes, die Gründer von FION Energy, haben sich als Team gefunden, das von einem Ziel angetrieben ist.<br/><strong>Die Beschleunigung der Energiewende, um den Klimawandel zu verlangsamen.</strong><br/><br/>FIONs Mission ist dabei, unsere Expertise - Data Science und Softwareentwicklung - dort einzusetzen, wo sie am meisten benötigt wird: In unseren Niederspannungsnetzen.",
-    "discussion": "Nach hunderten von Stunden in Gesprächen mit verschiedenen Unternehmen in der Energiebranche kamen wir immer wieder auf Probleme für Verteilnetzbetreiber zurück, die auch andere Unternehmen bei der Umsetzung der Energiewende beeinflussen.",
+    "excerpt": "Wir sind auf einer Mission Unternehmen in der Energiewende erfolgreicher zu machen",
+    "footnote": "FION Energy bietet für die neue Energiewelt und Ihre Herausforderungen smarte Softwarelösungen. Für eine nachhaltigere Energieversorgung.",
+    "founder": "Philipp und Johannes, die Gründer von FION Energy, haben sich als Team gefunden, das von einem Ziel angetrieben ist.<br/><strong>Die Beschleunigung der Energiewende, um den Klimawandel zu verlangsamen.</strong><br/><br/>FIONs Mission ist dabei, unsere Expertise - Data Science und Softwareentwicklung - dort einzusetzen, wo sie am meisten benötigt.",
+    "discussion": "Nach hunderten Stunden in Gesprächen mit verschiedenen Unternehmen haben wir uns Expertise rund um Energiedaten, -effizienz und -beschaffung aufgebaut. Der Übergang zu erneuerbaren Energien verursacht viele neue Herausforderungen. Gleichzeitig war es noch nie so einfach qualitativ hochwertige Echtzeit Daten zu erheben.",
     "problem": "Um das Problem näher zu verstehen, haben wir mit Verteilnetzbetreiber rund um Europa gesprochen. Die zunehmende Anzahl dezentraler Energieerzeuger und         -verbraucher zwingt die Unternehmen, die Niederspannungsnetze zukünftig in Echtzeit zu überwachen und zu steuern. Dazu muss eine sehr große Menge an Daten, die von verschiedenen Messgeräten im Netz, bestehender Software und externen Quellen wie Wettervorhersagen stammen, nahezu in Echtzeit verarbeitet werden.",
     "statement": "Von Engpässen zu langen Wartenzeiten bei Anschluss-gesuchen. Die Verteilnetze stehen im Fokus der Energiewende, Betreiber sind Ihre Taktgeber.",
     "by": "Engpass-Manager eines deutschen Verteilnetzbetreibers"

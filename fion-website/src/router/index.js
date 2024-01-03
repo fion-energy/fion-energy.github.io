@@ -23,7 +23,7 @@ const router = createRouter({
     {
       path: "/:locale?",
       component: RouterView,
-      beforeEnter: Tr.routeMiddleware,
+      // beforeEnter: Tr.routeMiddleware,
       children: [
         {
           path: '',

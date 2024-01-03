@@ -5,7 +5,7 @@ import de from "./locales/de.json"
 
 
 export default createI18n({
-    locale: import.meta.env.VITE_DEFAULT_LOCALE,
+    locale: 'de',
     fallbackLocale: import.meta.env.VITE_FALLBACK_LOCALE,
     legacy: false,
     globalInjection: true,
