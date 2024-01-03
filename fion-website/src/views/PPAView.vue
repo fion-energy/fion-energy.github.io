@@ -8,14 +8,14 @@ import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
     <div class="section introduction ppa">
       <div class="container mt-5">
         <div class="row d-flex justify-content-between">
-          <div class="col-lg-5 col-md-12 align-self-center">
+          <div class="col-lg-5 col-md-6 align-self-center">
             <h1 class="fs-1"> {{ $t("Der einfachste Weg Stromkosten zu sparen") }} </h1>
             <p class="mb-4" >{{ $t("Auf Basis Ihrer Stromdaten Einsparpotentiale in Sromverbrauch und -beschaffung ohne Aufwand erkennen und nutzen") }}</p>
             <div class="align-self-center d-flex button-container">
               <router-link :to="{ name: 'contact', params: {source: 'call'}}" class="btn btn-light d-flex justify-content-center bg-purple-dark" >{{ $t("Jetzt informieren") }}</router-link>
             </div>
           </div>
-          <div class="col-lg-5 align-self-center d-flex justify-content-end banner-image">
+          <div class="col-lg-5 col-md-6 align-self-center d-flex justify-content-end banner-image">
             <img src="/img/banner.png" style="width: 100%">
           </div>
         </div>

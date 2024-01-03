@@ -6,14 +6,17 @@
           <router-link :to="{ name: 'ppa'}" class="navbar-brand color-white fw-bold" href="#">
             <img src="/img/logo-black.png" class="h-logo" style="max-height: 2rem;margin-right: 2rem"/>
           </router-link>
-          <div>
-<!--            <button class="navbar-toggler " style="border: white 1px solid" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--              <i class="fa-solid fa-bars"></i>-->
-<!--            </button>-->
-            <div class="" id="navbarNavDropdown" >
+          <div class="menu-group">
+            <button class="navbar-toggler " style="border: white 1px solid" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <router-link :to="{ name: 'ppa'}" class="nav-link active" aria-current="page">{{ $t("Lösungen") }}</router-link>
+                  <router-link :to="{ name: 'ppa'}" class="nav-link active" aria-current="page">{{ $t("Für Unternehmen") }}</router-link>
+                </li>
+                <li class="nav-item">
+                  <router-link :to="{ name: 'grid-operators'}" class="nav-link active" aria-current="page">{{ $t("Für Netzbetreiber") }}</router-link>
                 </li>
                 <li class="nav-item">
                   <router-link :to="{ name: 'about' }" class="nav-link" >{{ $t("Über uns") }}</router-link>

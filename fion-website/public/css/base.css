@@ -198,9 +198,6 @@ footer h4,hr,a{
     padding: 0 20px;
     align-items: center;
 }
-.navbar-nav {
-    flex-direction: row;
-}
 .navbar-nav li {
     margin-right: 2rem;
     font-size: 1.1rem;
@@ -242,13 +239,10 @@ textarea.form-control {
     width: 200px;
 }
 .banner-image {
-    position: absolute;
-    right: 0;
-    width: 500px;
-    padding: 0;
+
 }
 .ppa.introduction {
-    height: 550px;
+    margin-top: 2rem;
 }
 .features {
     text-align: center;
@@ -306,7 +300,8 @@ textarea.form-control {
         justify-content: center;
     }
     .banner-image {
-        display: none !important;
+        width: 60%;
+        margin: 3em auto;
     }
     .functions {
         text-align: center;
@@ -321,5 +316,21 @@ textarea.form-control {
     }
     .reviews img.testimonials {
         margin: 20px auto;
+    }
+    .menu-group {
+        position: absolute;
+        right: 20px;
+    }
+    .navbar-collapse {
+        background: white;
+        position: absolute;
+        right: 0px;
+        border: 1px solid #d2d2d2;
+        padding: 10px;
+        border-radius: 8px;
+        width: 200px;
+    }
+    .navbar-collapse li {
+        font-size: 12px;
     }
 }
