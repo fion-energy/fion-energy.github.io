@@ -25,10 +25,11 @@
           <div class="section introduction">
             <div class="container" >
               <div class="row d-flex justify-content-between ">
-                <div class="col-lg-5 align-self-center justify-content-start statement">
-                  <strong>"{{$t("about.statement")}}"</strong>
-                  <br/>
-                  <p class="mt-5">{{$t("about.by")}}</p>
+                <div class="col-lg-5 align-self-center justify-content-start">
+                  <img src="/img/problem.png" style="width: 100%">
+<!--                  <strong>"{{$t("about.statement")}}"</strong>-->
+<!--                  <br/>-->
+<!--                  <p class="mt-5">{{$t("about.by")}}</p>-->
                 </div>
                 <div class="col-lg-5 col-md-12 align-self-center justify-content-end">
                   <p class="mt-5 mb-4 cut-word" >{{ $t("about.discussion") }}</p>
@@ -37,18 +38,18 @@
               </div>
             </div>
           </div>
-          <div class="section introduction">
-            <div class="container"  >
-              <div class="row d-flex  justify-content-between">
-                <div class="col-lg-5 col-md-12 align-self-center">
-                  <p class="mt-5 mb-4 cut-word" >{{ $t("about.problem") }}</p>
-                </div>
-                <div class="col-lg-5 align-self-center d-flex justify-content-end">
-                  <img src="/img/problem.png" style="width: 100%">
-                </div>
-              </div>
-            </div>
-          </div>
+<!--          <div class="section introduction">-->
+<!--            <div class="container"  >-->
+<!--              <div class="row d-flex  justify-content-between">-->
+<!--                <div class="col-lg-5 col-md-12 align-self-center">-->
+<!--                  <p class="mt-5 mb-4 cut-word" >{{ $t("about.problem") }}</p>-->
+<!--                </div>-->
+<!--                <div class="col-lg-5 align-self-center d-flex justify-content-end">-->
+<!--                  -->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
           <div class="mt-5 mb-5 pt-5 pb-5">
             <h2>{{ $t("about.footnote") }}</h2>
           </div>

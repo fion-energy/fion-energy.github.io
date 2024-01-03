@@ -28,7 +28,7 @@ const router = createRouter({
         {
           path: '',
           name: 'home',
-          component: HomeView
+          component: PPAView
         },{
           path: 'companies',
           name: 'ppa',
