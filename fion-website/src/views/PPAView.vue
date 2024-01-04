@@ -23,7 +23,7 @@ import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
     </div>
   </div>
 
-  <div class="mb-5 features">
+  <div class="mb-5 features" style="margin-top: 120px">
     <div class="container mt-5" >
       <div class="row text-center">
         <h1 class="fs-1">Ihre Vorteile</h1>
@@ -48,7 +48,7 @@ import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
     </div>
   </div>
 
-  <div class="reviews">
+  <div class="reviews" style="margin-top: 120px">
     <div class="container">
       <div class="row">
         <div class="col-md-5">
@@ -64,8 +64,8 @@ import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
 
 
 
-  <div class="mt-5">
-    <div class="container functions">
+  <div class="mt-5" >
+    <div class="container functions" style="margin-top: 150px">
       <div class="row align-items-center">
         <div class="col-md-6">
           <h1 class="fs-1">
@@ -108,7 +108,7 @@ import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
     </div>
   </div>
 
-  <div id="ready" class="mt-5">
+  <div id="ready" class="" style="margin-top: 150px">
     <div class="container" >
       <div class="">
         <div class="row">
