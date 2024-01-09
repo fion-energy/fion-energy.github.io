@@ -1,6 +1,6 @@
 <template>
   <PPANavbarTop/>
-  <div class="section introduction contact-view" style="margin-top: 3rem">
+  <div class="section introduction contact-view" style="margin-top: 120px">
     <div class="container" style="min-height: 100vh;">
       <div class="row h-100">
         <div class="col-lg-6 col-md-12 align-self-center">
