@@ -52,6 +52,15 @@
                 </a>
               </div>
             </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <strong>Lösungen</strong>
+                <ul class="list-unstyled before-arrow" style="padding-top: 0">
+                  <li class="small"><router-link :to="{ name: 'ppa'}" class="active" aria-current="page">für Unternehmen</router-link></li>
+                  <li class="small"><router-link :to="{ name: 'grid-operators'}" class="active" aria-current="page">für Netzbetreiber</router-link></li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="col-lg-6 col-md-6">
             <h4>{{ $t("footer.links.title") }}</h4>

@@ -91,7 +91,11 @@ ul.before-arrow li {
   margin-top: 0.7rem;
   font-family: condensed !important;
 }
-
+ul.before-arrow li.small {
+  margin-top: 0.1rem;
+  font-family: condensed !important;
+  font-weight: 100;
+}
 #navbarNavDropdown li a {
   color: white;
 }
