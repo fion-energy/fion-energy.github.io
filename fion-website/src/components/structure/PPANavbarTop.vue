@@ -13,19 +13,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown" >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <router-link :to="{ name: 'ppa'}" class="nav-link active" aria-current="page">{{ $t("Lösung") }}</router-link>
+                  <router-link :to="{ name: 'home'}" class="nav-link">{{ $t("Startseite") }}</router-link>
                 </li>
-<!--                <li class="nav-item">-->
-<!--                  <router-link :to="{ name: 'grid-operators'}" class="nav-link active" aria-current="page">{{ $t("Für Netzbetreiber") }}</router-link>-->
-<!--                </li>-->
                 <li class="nav-item">
                   <router-link :to="{ name: 'about' }" class="nav-link" >{{ $t("Über uns") }}</router-link>
                 </li>
               </ul>
             </div>
-
           </div>
         </div>
+        <button  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/johannes-fion/30min'});return false;" class="calendly-btn btn btn-light justify-content-center bg-purple-dark">{{ $t("Erstgespräch vereinbaren") }}</button>
       </div>
     </nav>
   </header>

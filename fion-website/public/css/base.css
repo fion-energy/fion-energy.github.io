@@ -11,6 +11,7 @@
     background: white;
     padding-top: 1em;
     padding-bottom: 1em;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.1);
 }
 
 .color-purple-dark {
@@ -26,7 +27,7 @@
 }
 
 .bg-purple-dark {
-    background: #4703a6;
+    background: #4702A6;
     color: white;
 }
 
@@ -49,9 +50,10 @@
 
 h1 {
     color: #262626;
-    font-size: 2rem;
+    font-size: 60px;
     font-weight: 740;
     font-family: "Open Sans";
+    margin-bottom: 20px;
 }
 
 .cut-word {
@@ -66,6 +68,7 @@ h2 {
     color: #262626;
     font-weight: 740;
     font-family: "Open Sans";
+    font-size: 52px;
 }
 
 h4 {
@@ -75,6 +78,7 @@ h4 {
 
 p {
     font-family: "Open Sans";
+    font-size: 18px;
 }
 a {
     font-family: "Open Sans";
@@ -149,7 +153,6 @@ body {
 section, .section {
     position:relative;
     z-index: 1;
-    margin-bottom: 2rem;
 }
 
 #icons-link a {
@@ -194,7 +197,7 @@ footer h4,hr,a{
 #ready {
     background: rgb(238 238 238);
     border-radius: 8px;
-    padding: 3rem;
+    padding: 5rem 0;
 }
 
 .btn {
@@ -210,7 +213,7 @@ footer h4,hr,a{
     border-bottom: 2px solid #000000;
 }
 #about-us h2 {
-    font-size: 1.3rem;
+    font-size: 48px;
 }
 #about-us .statement {
     background: rgb(238 238 238);
@@ -337,4 +340,47 @@ textarea.form-control {
     .navbar-collapse li {
         font-size: 12px;
     }
+    .navbar button.calendly-btn {
+        display: none;
+    }
+    h2, .functions h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+.calendly-btn {
+    width: 240px;
+}
+.copyright {
+    font-size: 13px;
+}
+footer p {
+    font-size: 16px;
+}
+.functions h2 {
+    font-size: 36px;
+}
+.functions-analysis .col-md-4 h3 {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.functions-analysis .col-md-4 {
+    padding: 20px 30px;
+}
+.functions-analysis .col-md-4 div {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin-bottom: 20px;
+    height: 300px;
+    position: relative;
+
+}
+.functions-analysis .col-md-4 div img {
+    width: 34px;
+    position: absolute;
+    bottom: 30px;
 }

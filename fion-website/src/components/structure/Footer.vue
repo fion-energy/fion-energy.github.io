@@ -1,115 +1,43 @@
 <template>
     <footer id="footer">
       <div class="container p-4">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4>{{ $t("footer.about_us.title") }}</h4>
-            <hr />
-<!--            <div>-->
-<!--              <p>-->
-<!--                  {{ $t("footer.about_us.content") }}-->
-<!--              </p>-->
-<!--            </div>-->
-            <div class="d-flex align-items-center mt-5">
-              <div class="me-4">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-4">
+            <div>
+              <img src="/img/logo.png" class="h-logo" style="max-height: 3rem;"/>
+            </div>
+            <div class="d-flex align-items-center mt-2">
               <div>
                 <p>
-                  Zugang über den Hof der KPM<br /> Wegelystraße 1<br /> 10623 Berlin
+                  <br/>
+                  Wegelystraße 1, 10623 Berlin<br/>
+                  hello@fion-energy.com
                 </p>
               </div>
             </div>
-            <div class="d-flex align-items-center mt-5">
-              <div class="me-4">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div>
-                <a href="mailto:hello@fion-energy.com">
-                  hello@fion-energy.com
-                </a>
-              </div>
-            </div>
-            <div id="icons-link" class="d-flex flex-row justify-content-between mt-5">
-              <div>
-                <a href="https://www.linkedin.com/company/fion-energy">
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </div>
-              <div>
-                <a href="https://twitter.com/FionEnergy">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-              </div>
-              <div>
-                <a href="https://github.com/fion-energy">
-                  <i class="fa-brands fa-github"></i>
-                </a>
-              </div>
-              <div>
-                <a href="mailto:hello@fion-energy.com">
-                  <i class="fa-solid fa-envelope"></i>
-                </a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12">
-                <strong>Lösungen</strong>
-                <ul class="list-unstyled before-arrow" style="padding-top: 0">
-                  <li class="small"><router-link :to="{ name: 'ppa'}" class="active" aria-current="page">für Unternehmen</router-link></li>
-                  <li class="small"><router-link :to="{ name: 'grid-operators'}" class="active" aria-current="page">für Netzbetreiber</router-link></li>
-                </ul>
-              </div>
-            </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <h4>{{ $t("footer.links.title") }}</h4>
-            <hr />
-            <div class="row">
-              <div class="col-sm-12">
-               <img src="/img/supported-by.png" alt="partners" style="width: 100%"/>
-              </div>
-              <ul class="list-unstyled before-arrow flex" style="padding-top: 0">
-                <li>
-                  <router-link :to="{ name: 'privacy-policy'}">
-                    {{ $t("footer.links.links[2].title") }}
-                  </router-link>
-                </li>
-                <li>
-                  <router-link :to="{ name: 'imprint'}">
-                    {{ $t("footer.links.links[3].title") }}
-                  </router-link>
-                </li>
-              </ul>
-<!--              <div class="col-sm-6">-->
-<!--                <ul class="list-unstyled before-arrow">-->
-<!--                </ul>-->
-<!--              </div>-->
-            </div>
+          <div class="col-lg-3 col-md-3">
+            <ul class="list-unstyled flex" style="padding: 0">
+              <li>
+                <router-link :to="{ name: 'privacy-policy'}">
+                  <strong>{{ $t("footer.links.links[2].title") }}</strong>
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'imprint'}">
+                  <strong>{{ $t("footer.links.links[3].title") }}</strong>
+                </router-link>
+              </li>
+            </ul>
           </div>
-<!--          <div class="col-lg-4  col-md-6">-->
-<!--            <h4>{{ $t("footer.waiting.title") }}</h4>-->
-<!--            <hr />-->
-<!--            <div>-->
-<!--              <p>-->
-<!--                  {{ $t("footer.waiting.message") }}-->
-<!--              </p>-->
-<!--              <form method="POST" action="https://formspree.io/f/mnqyooje">-->
-<!--                  <div class="input-group mb-3">-->
-<!--                      <input type="hidden" name="waiting-list" value="Waitinglint">-->
-<!--                      <input type="email" name="email" class="form-control" :placeholder="$t('footer.waiting.placeholder')">-->
-<!--                      <button type="submit" class="input-group-text bg-purple-dark " id="newslater">{{ $t("footer.waiting.button") }}</button>-->
-<!--                  </div>-->
-<!--              </form>-->
-
-<!--            </div>-->
-
-<!--          </div>-->
+          <div class="col-lg-5 col-md-5">
+            <img src="/img/supported-by.png" class=" align-items-end" alt="partners" style="width: 60%; float: right"/>
+          </div>
         </div>
         <hr>
         <div class="row">
-          <div class="col-12 text-center">
-            <p class="d-block my-3">Copyright © <span class="fw-bold">Fion-Energy</span> 2023 | All rights reserved.</p>
+          <div class="col-12">
+            <p class="d-block my-3 copyright">Copyright © <span class="fw-bold">Fion-Energy</span> 2023 | All rights reserved.</p>
           </div>
         </div>
       </div>

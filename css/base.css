@@ -11,6 +11,7 @@
     background: white;
     padding-top: 1em;
     padding-bottom: 1em;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.1)
 }
 
 .color-purple-dark {
@@ -275,6 +276,13 @@ textarea.form-control {
     display: flex;
     margin: -93px auto 90px auto;
 }
+.copyright {
+    font-size: 13px;
+}
+.functions h2 {
+    font-size: 36px;
+}
+
 @media screen and (max-width: 767px) {
     #how-it-works {
         text-align: center;
@@ -324,6 +332,9 @@ textarea.form-control {
     .menu-group {
         position: absolute;
         right: 20px;
+    }
+    .navbar button.calendly-btn {
+        display: none;
     }
     .navbar-collapse {
         background: white;
