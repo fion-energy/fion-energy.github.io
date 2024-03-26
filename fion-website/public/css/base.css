@@ -68,7 +68,7 @@ h2 {
     color: #262626;
     font-weight: 740;
     font-family: "Open Sans";
-    font-size: 52px;
+    font-size: 48px;
 }
 
 h4 {
@@ -85,9 +85,9 @@ a {
     text-decoration: none;
 
 }
-
 h3 {
-    color: #4703a6;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 hr {
@@ -278,6 +278,9 @@ textarea.form-control {
     display: flex;
     margin: -93px auto 90px auto;
 }
+.introduction h1 {
+    font-size: 48px;
+}
 @media screen and (max-width: 767px) {
     #how-it-works {
         text-align: center;
@@ -350,6 +353,25 @@ textarea.form-control {
         font-size: 18px;
     }
 }
+@media screen and (max-width: 992px) {
+    .ppa.introduction {
+        margin-top: 6rem;
+    }
+    h1, .introduction h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .introduction img {
+        width: 130% !important;
+        margin-right: -100px;
+    }
+    .fs-3 {
+        font-size: 28px !important;
+    }
+
+}
 .calendly-btn {
     width: 240px;
 }
@@ -359,28 +381,26 @@ textarea.form-control {
 footer p {
     font-size: 16px;
 }
-.functions h2 {
-    font-size: 36px;
-}
-.functions-analysis .col-md-4 h3 {
+.functions-analysis .col-md-6 h3 {
     font-size: 32px;
     color: black;
     font-weight: bold;
 }
-.functions-analysis .col-md-4 {
+.functions-analysis .col-md-6 {
     padding: 20px 30px;
 }
-.functions-analysis .col-md-4 div {
+.functions-analysis .col-md-6 div {
     border-radius: 8px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
     padding: 40px;
     margin-bottom: 20px;
-    height: 300px;
+    height: 100%;
     position: relative;
+    align-self: stretch;
 
 }
-.functions-analysis .col-md-4 div img {
+.functions-analysis .col-md-6 div img {
     width: 34px;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
 }

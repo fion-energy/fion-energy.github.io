@@ -10,13 +10,15 @@
               <div>
                 <p>
                   <br/>
-                  Wegelystraße 1, 10623 Berlin<br/>
+                  c/o Future Energy Lab
+                  Wegelystraße 1, 10623 Berlin
+                  <br/>
                   hello@fion-energy.com
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3">
+          <div class="col-lg-3 col-md-4">
             <ul class="list-unstyled flex" style="padding: 0">
               <li>
                 <router-link :to="{ name: 'privacy-policy'}">
@@ -30,8 +32,8 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-5 col-md-5">
-            <img src="/img/supported-by.png" class=" align-items-end" alt="partners" style="width: 60%; float: right"/>
+          <div class="col-lg-5 col-md-4">
+            <img src="/img/supported-by.png" class=" align-items-end" alt="partners" style="width: 70%; float: right"/>
           </div>
         </div>
         <hr>

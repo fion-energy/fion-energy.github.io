@@ -8,7 +8,7 @@
 <!--          <p>{{ $t("home.call2action.content") }}</p>-->
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 align-self-center justify-content-end d-flex button-container">
-            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/johannes-fion/30min'});return false;" class="btn btn-light d-flex justify-content-center bg-purple-dark" style="min-width: 60%">{{ $t("Erstgespräch vereinbaren") }}</button>
+            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/johannes-fion/30min'});return false;" class="btn btn-light d-flex justify-content-center bg-purple-dark" style="min-width: 60%">{{ $t("Demo vereinbaren") }}</button>
         </div>
         </div>
       </div>

@@ -32,7 +32,7 @@
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          Sie können die angezeigten Charts für beliebige Zeiträume definieren. Dazu benutzen Sie ganz einfach unsere Navigationsleist, mit der Sie intuitive einstellen können, welchen Zeitraum Sie sich anschauen möchten.
+          Sie können die angezeigten Charts für beliebige Zeiträume definieren. Dazu benutzen Sie ganz einfach unsere Navigationsleiste, mit der Sie intuitiv einstellen können, welchen Zeitraum Sie sich anschauen möchten.
         </div>
       </div>
     </div>
