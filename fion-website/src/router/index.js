@@ -4,6 +4,9 @@ import Tr from "@/i18n/translation"
 import ContactView from "@/views/ContactView.vue";
 import ImprintView from "@/views/ImprintView.vue";
 import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
+import AGBView from "@/views/AGBView.vue";
+import AVVView from "@/views/AVVView.vue";
+import DataPolicyView from "@/views/DataPolicyView.vue";
 import AboutUs from "@/views/AboutUs.vue";
 import PPAView from "@/views/PPAView.vue";
 
@@ -58,7 +61,20 @@ const router = createRouter({
           path: 'grid-operators',
           name: 'grid-operators',
           component: HomeView
-        }
+        },
+        {
+          path: 'legal/app/agb',
+          name: 'agb',
+          component: AGBView
+        },{
+          path: 'legal/app/avv',
+          name: 'avv',
+          component: AVVView
+        },{
+          path: 'legal/app/datenschutz',
+          name: 'data-policy',
+          component: DataPolicyView
+        },
       ]
     },
   ]

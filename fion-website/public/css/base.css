@@ -404,3 +404,50 @@ footer p {
     position: absolute;
     bottom: 20px;
 }
+.legal-content {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.legal-content h1 {
+    color: #004961;
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+.legal-content h2 {
+    color: #4dc779;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.legal-content a {
+    color: #004961;
+}
+.legal-content p {
+    font-size: 14px;
+}
+.legal-content {
+    color: #333;
+    font-weight: 300;
+    line-height: 22.5px;
+}
+.legal-content li {
+    margin-bottom: 10px;
+}
+.legal-content ol {
+    padding-left: 15px;
+}
+b, strong {
+    font-weight: bold;
+}
+.legal-content h4 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.legal-content hr{
+    border-bottom: 1px solid #d2d2d2;
+
+}
