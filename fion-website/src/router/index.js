@@ -9,6 +9,7 @@ import AVVView from "@/views/AVVView.vue";
 import DataPolicyView from "@/views/DataPolicyView.vue";
 import AboutUs from "@/views/AboutUs.vue";
 import PPAView from "@/views/PPAView.vue";
+import ErrorHandling from "@/views/ErrorHandlingView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +75,10 @@ const router = createRouter({
           path: 'legal/app/datenschutz',
           name: 'data-policy',
           component: DataPolicyView
+        },{
+          path: 'product/app/fehlerbehandlung',
+          name: 'error-handing',
+          component: ErrorHandling
         },
       ]
     },
