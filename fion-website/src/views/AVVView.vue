@@ -152,7 +152,6 @@
       <li>Google Analytics:<span style="font-weight: 400;">&nbsp;Bereitstellung von Webanalyse-Diensten zur Erfassung und Analyse von Nutzerdaten auf der Webseite. Verarbeitungsort: USA/EU.</span></li>
       <li><span style="font-weight:700">Highcharts:</span><span>&nbsp;Bereitstellung von Charting-Lösungen und Datenvisualisierungen.<br></span><span>Verarbeitungsort:</span>&nbsp;EU.</li>
       <li><span style="font-weight:700">OpenAI:</span><span>Bereitstellung von KI-gestützten Analyse- und Textgenerierungsdiensten.<br></span><span>Verarbeitungsort: </span>USA.</li>
-      <li><strong>[Weitere Unterauftragsverarbeiter einfügen, falls vorhanden]</strong></li>
     </ul>
     </div>
   </div>
