@@ -56,6 +56,23 @@
   </div>
 </template>
 <script>
+
+/**
+ * get anchor tag from url
+ */
+setTimeout(() => {
+  const id = window.location.hash.substr(1)
+  const element = document.querySelector(`#${id}`)
+  const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+  window.scrollTo({
+    top: topPos - 150, // scroll so that the element is at the top of the view
+    behavior: 'smooth' // smooth scroll
+  });
+})
+
+
+
 import PPANavbarTop from "@/components/structure/PPANavbarTop.vue";
 export default {
   name: "error-handling",
