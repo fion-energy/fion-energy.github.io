@@ -14,7 +14,7 @@ import HomeAccordian from "@/components/home/HomeAccordian.vue";
             <h1 class=""> {{ $t("Lastgänge analysieren -  10x schneller und besser als mit Excel") }} </h1>
             <p class="mb-4" >{{ $t("Mit FION, der ersten KI-gestützten Lastganganalysesoftware für Energieberater und -auditoren") }}</p>
             <div class="align-self-center d-flex button-container mt-5">
-              <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/johannes-fion/30min'});return false;" class="btn btn-light d-flex justify-content-center bg-purple-dark" >{{ $t("Demo vereinbaren") }}</button>
+              <button onclick="window.location.href='https://app.fion-energy.com/'" class="btn btn-light d-flex justify-content-center bg-purple-dark" >{{ $t("Kostenlos testen!") }}</button>
             </div>
           </div>
           <div class="col-lg-7 col-md-7 align-self-center d-flex justify-content-end banner-image">
@@ -115,7 +115,7 @@ import HomeAccordian from "@/components/home/HomeAccordian.vue";
                 <img src="/img/circle.png" />
               </div>
               <div class="col-sm-10">
-                <h3>Demo vereinbaren</h3>
+                <h3>Kostenlos testen!</h3>
                 <p>Wir stellen unseren Service vor und ermitteln gemeinsam Ihre individuellen Bedürfnisse</p>
               </div>
             </div>

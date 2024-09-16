@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <button  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/johannes-fion/30min'});return false;" class="calendly-btn btn btn-light justify-content-center bg-purple-dark">{{ $t("Demo vereinbaren") }}</button>
+        <button onclick="window.location.href='https://app.fion-energy.com/'"  class="calendly-btn btn btn-light justify-content-center bg-purple-dark">{{ $t("Kostenlos testen!") }}</button>
       </div>
     </nav>
   </header>
