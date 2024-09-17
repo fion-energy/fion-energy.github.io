@@ -100,49 +100,49 @@ import HomeAccordian from "@/components/home/HomeAccordian.vue";
     </div>
   </div>
 
-  <div class="mt-5" >
-    <div class="container functions" style="margin-top: 150px">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h2>
-            Und so funktioniert es
-          </h2>
-        </div>
-        <div class="col-md-6">
-          <div>
-            <div class="row align-items-center">
-              <div class="col-sm-2">
-                <img src="/img/circle.png" />
-              </div>
-              <div class="col-sm-10">
-                <h3>Kostenlos testen!</h3>
-                <p>Wir stellen unseren Service vor und ermitteln gemeinsam Ihre individuellen Bedürfnisse</p>
-              </div>
-            </div>
+<!--  <div class="mt-5" >-->
+<!--    <div class="container functions" style="margin-top: 150px">-->
+<!--      <div class="row align-items-center">-->
+<!--        <div class="col-md-6">-->
+<!--          <h2>-->
+<!--            Und so funktioniert es-->
+<!--          </h2>-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--          <div>-->
+<!--            <div class="row align-items-center">-->
+<!--              <div class="col-sm-2">-->
+<!--                <img src="/img/circle.png" />-->
+<!--              </div>-->
+<!--              <div class="col-sm-10">-->
+<!--                <h3>Kostenlos testen!</h3>-->
+<!--                <p>Wir stellen unseren Service vor und ermitteln gemeinsam Ihre individuellen Bedürfnisse</p>-->
+<!--              </div>-->
+<!--            </div>-->
 
-          </div>
-          <div  class="row align-items-center">
-            <div class="col-sm-2">
-              <img src="/img/donut.png" />
-            </div>
-            <div class="col-sm-10">
-            <h3>Warteliste beitreten</h3>
-            <p>Melden Sie sich mit Ihrer Email Adresse bei uns an, um Beta Tester zu werden</p>
-            </div>
-          </div>
-          <div  class="row align-items-center">
-            <div class="col-sm-2">
-              <img src="/img/dot.png" />
-            </div>
-            <div class="col-sm-10">
-            <h3>Testzeitraum beginnen</h3>
-            <p>Wir benachrichtigen Sie, wenn FION online ist, damit Sie anfangen können zu testen</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--          </div>-->
+<!--          <div  class="row align-items-center">-->
+<!--            <div class="col-sm-2">-->
+<!--              <img src="/img/donut.png" />-->
+<!--            </div>-->
+<!--            <div class="col-sm-10">-->
+<!--            <h3>Warteliste beitreten</h3>-->
+<!--            <p>Melden Sie sich mit Ihrer Email Adresse bei uns an, um Beta Tester zu werden</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div  class="row align-items-center">-->
+<!--            <div class="col-sm-2">-->
+<!--              <img src="/img/dot.png" />-->
+<!--            </div>-->
+<!--            <div class="col-sm-10">-->
+<!--            <h3>Testzeitraum beginnen</h3>-->
+<!--            <p>Wir benachrichtigen Sie, wenn FION online ist, damit Sie anfangen können zu testen</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <HomeCall2Action />
   <div class="mt-5" >
